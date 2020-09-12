@@ -1,0 +1,63 @@
+.all{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+
+.all_game{
+    background-color: var(--main-white);
+    top: 0;
+    left: 0;
+    width: 845px;
+    height: 480px;
+}
+
+.all_credits{
+    background-color: var(--main-white);
+    top: 0;
+    left: 0;
+    width: 845px;
+    height: 480px;
+}
+.credits_page{
+    display: none;
+    opacity: 1;
+    background-color: var(--main-white);
+    top: 0;
+    left: 0;
+    width: 845px;
+    height: 480px;
+}
+
+.loading_container{
+    display: none;
+    position: absolute;
+    width: 143px;
+    height: 38px;
+    left: 350px;
+    bottom: 420px;
+    
+    background: #C4C4C4;
+}
+
+.loading{
+    width: 120px;
+    height: 38px;
+
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.main_content{
+    background-color: var(--main-white);
+    top: 0;
+    left: 0;
+    width: 845px;
+    height: 480px;
+}

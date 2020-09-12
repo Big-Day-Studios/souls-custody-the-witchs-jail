@@ -1,0 +1,15 @@
+:root{
+    --main-color: #104060;
+    --main-white: #fcfcfc;
+    --main-font-family: "Yu Gothic";
+    --color-input-hover: #1e90ff;
+    --color-input-active: #1e8fff98;
+    --button-color: #c4c4c4;
+    --button-color-hover: #C27AEF;
+    --border-color-hover: #9b9b9bb6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}

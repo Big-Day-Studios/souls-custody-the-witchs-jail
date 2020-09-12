@@ -1,0 +1,204 @@
+.logo_bds{
+    position: absolute;
+    width: 77px;
+    height: 104px;
+    left: 294px;
+    top: 23px;
+}
+
+.logo_game{
+    position: absolute;
+    width: 122px;
+    left: 403px;
+    top: 17px;
+
+}
+
+.back{
+    position: absolute;
+    width: 56px;
+    left: 26px;
+    top:35px;
+
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+
+    color: #000000;
+
+    opacity: 0.7;
+
+}
+.back_button{
+    position: absolute;
+    width: 56px;
+    left: 26px;
+    top:35px;
+}
+
+.logo_fake_name{
+    position: absolute;
+    width: 58px;
+    height: 76px;
+    left: 438px;
+    top: 35px;
+
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.4;
+}
+
+.edu_h{
+    position: absolute;
+    width: 312px;
+    height: 42px;
+    left: 19px;
+    top: 137px;
+
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 42px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.edu_p{
+    position: absolute;
+    width: 527px;
+    height: 60px;
+    left: 19px;
+    top: 179px;
+
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.sinopse_h{
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 19px;
+    top: 239px;
+
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 42px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.sinopse_p{
+
+    position: absolute;
+    width: 539px;
+    height: 176px;
+    left: 19px;
+    top: 281px;
+
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.bar{
+    position: absolute;
+    left: 565px;
+    top: 137px;
+}
+
+.orientacao_h{
+    position: absolute;
+    width: 132px;
+    height: 42px;
+    left: 579px;
+    top: 137px;
+    
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 42px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+
+.orientacao_p{
+    position: absolute;
+    width: 245px;
+    height: 66px;
+    left: 579px;
+    top: 179px;
+    
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+
+.dev_h{
+    position: absolute;
+    width: 206px;
+    height: 42px;
+    left: 579px;
+    top: 269px;
+    
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 42px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+
+.dev_p{
+    position: absolute;
+    width: 245px;
+    height: 115px;
+    left: 579px;
+    top: 311px;
+    
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+}

@@ -1,0 +1,215 @@
+.splash{
+    transition: all 0.5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 845px;
+    height: 480px;
+    background-color: var(--main-white);
+    z-index: 200;
+    color: #000000;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.splash.display-none{
+    opacity: 0 ;
+    top: 0;
+    left: 0;
+    width: 845px;
+    height: 480px;
+    background-color: var(--main-white);
+    z-index: -10;
+    color: #000000;
+    text-align: center;
+    transition: all 0.5s;    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+@keyframes logo_jrm{
+    to{
+        opacity: 1;
+    }
+}
+
+img.splash_jrm{
+    opacity: 0;
+    animation: logo_jrm 0.8s ease-in forwards;
+    width: 845px;
+    height: 480px;
+}
+
+
+@keyframes load{
+    to{
+        opacity: 1;
+    }
+}
+
+.load{
+    opacity: 0;
+    animation: load 6s ease-in forwards;
+    width: 0%;
+    height: 0vh;
+}
+
+.splash_2{    
+    position: fixed;
+    opacity: 0 ;
+    top: 0;
+    left: 0;
+    width: 845px;
+    height: 480px;
+    background-color: var(--main-white);
+    z-index: -100;
+    text-align: center;
+    transition: all 0.7s;    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.splash_2_{
+    transition: all 0.7s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 845px;
+    height: 480px;
+    background-color: var(--main-white);
+    z-index: 200;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.logo_bds_splash{
+    position: fixed;
+    width: 86px;
+    height: 117px;
+    left: 380px;
+    top: 182px;
+}
+
+.bds_presets{
+    
+    position: fixed;
+    width: 100px;
+    height: 44px;
+    left: 374px;
+    top: 306px;
+
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.game_name_text{
+    
+    position: absolute;
+    width: 317px;
+    height: 120px;
+    left: 264px;
+    top: 165px;
+    
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    /* or 125% */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+
+}
+
+.start_press{
+
+    position: absolute;
+    width: 387px;
+    height: 38px;
+    left: 229px;
+    top: 366px;
+    
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    
+    color: #000000;
+    
+
+}
+
+.game_name{
+    position: fixed;
+    opacity: 0 ;
+    top: 0;
+    left: 0;
+    width: 845px;
+    height: 480px;
+    background-color: var(--main-white);
+    z-index: -100;
+    text-align: center;   
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game_name_{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 845px;
+    height: 480px;
+    background-color: var(--main-white);
+    z-index: 200;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 8vh;
+}
+
+.game_name__{
+    display:none;
+}
+
+.logo_start{
+    position: absolute;
+    width: 271px;
+    height: 270px;
+    left: 287px;
+    top: 85px;
+
+}
