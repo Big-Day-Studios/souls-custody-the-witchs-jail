@@ -1,0 +1,46 @@
+.all_game{
+    background-image: url(../img/background.svg)
+}
+
+.textArea{
+    position: absolute;
+    width: 845px;
+    height: 141px;
+    left: 0px;
+    top: 339px;
+
+    background: #000000;
+    opacity: 0.6;
+}
+
+.name{
+    position: absolute;
+    width: 88px;
+    height: 38px;
+    left: 16px;
+    top: 320px;
+
+    background: #000000;
+    border-radius: 2px;
+}
+
+.Next{
+    position: absolute;
+    width: 55px;
+    height: 25px;
+    left: 783px;
+    top: 344px;
+}
+
+.next{
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    background: 0%;
+    border: 0;
+}
