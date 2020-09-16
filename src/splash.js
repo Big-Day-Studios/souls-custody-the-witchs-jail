@@ -13,24 +13,24 @@ import Menu from './menu';
 function App() {
   return (
     <div className="all">
-    <div className="all_game">
-        <div className="splash">
-            <img className="splash_jrm" alt="splash Screen" src={splash} alt="splash com logos da ETEC JRM, CPS."/>
-            <img src="img/load.png" alt="Unknown" className="load"/>
-        </div>
-        <div id='splash_2' className="splash_2">                
-            <img src={bds} className="logo_bds_splash" alt="logo bds"/>
-            <h1 className="bds_presets">Big Day Studios<br></br>presents</h1>
-        </div>
-        <div id="game_name" className="game_name">
-            <img src={logo} alt="Soul Custody: The Witch Jail" className="logo_start"/>
-            <h1 className="start_press">Pressione alguma tecla para começar</h1>
-        </div>
-        <div className="loading_container">
-            <p className="loading">carregando</p>
+        <div className="all_game">
+            <div className="splash">
+                <img className="splash_jrm" alt="splash Screen" src={splash} alt="splash com logos da ETEC JRM, CPS."/>
+                <img src="img/load.png" alt="Unknown" className="load"/>
+            </div>
+            <div id='splash_2' className="splash_2">                
+                <img src={bds} className="logo_bds_splash" alt="logo bds"/>
+                <h1 className="bds_presets">Big Day Studios<br></br>presents</h1>
+            </div>
+            <div id="game_name" className="game_name">
+                <img src={logo} alt="Soul Custody: The Witch Jail" className="logo_start"/>
+                <h1 className="start_press">Pressione alguma tecla para começar</h1>
+            </div>
+            <div className="loading_container">
+                <p className="loading">carregando</p>
+            </div>
         </div>
     </div>
-</div>
   );
 }
 

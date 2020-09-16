@@ -1,30 +1,21 @@
-import React from 'react';
-import {Link} from "react-router-dom";
-import ena from './game_text/#1'
+import React from 'react'
 import "./css/main.css";
 import "./css/game_index.css";
 
 
 
-function Game(){
-
-    return(
-        <div className="all">
-            <div className="all_game">
-                <div className="name"></div>
-                <div className="textArea"></div>
-                <Link to={ena}>
-                    <div id="n1" className="Next">
-                        <p className="next">Próximo</p>
-                    </div>
-                </Link>
-            </div>        
-        </div>
-    );
-
-   
+export default class Game extends React.Component{
+    render(){
+        return(
+            <div className="all">
+                <div id="all_game_run" className="all_game">
+                    <div className="name"></div>
+                    <div className="textArea"></div>
+                </div>        
+            </div>
+        );
+    }
 }
 
 
 
-export default Game;
