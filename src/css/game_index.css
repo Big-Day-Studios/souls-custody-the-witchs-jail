@@ -44,3 +44,35 @@
     background: 0%;
     border: 0;
 }
+
+.poppy{
+    position: absolute;
+    width: 46px;
+    height: 26px;
+    left: 37px;
+    top: 326px;
+
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.texto{
+    position: absolute;
+    left: 32px;
+    top: 365px;
+
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
