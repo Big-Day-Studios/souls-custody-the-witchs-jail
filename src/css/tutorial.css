@@ -1,0 +1,37 @@
+.question_0{
+    position: absolute;
+    width: 444px;
+    height: 58px;
+    left: 201px;
+    top: 130px;
+
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 58px;
+
+    color: rgba(0, 0, 0, 0.63);
+
+}
+
+.input_tittle{
+    position: absolute;
+    width: 414px;
+    height: 116px;
+    left: 216px;
+    top: 100px;
+
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 58px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.63);
+
+}
+
+
+
