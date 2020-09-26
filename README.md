@@ -1,8 +1,6 @@
 # Souls Custody: The Witch's Jail
 A browser Visual Novel game made in React.js
 <br/>
-<br/>
-<br/>
 
 ## About
 <br/>
