@@ -45,6 +45,38 @@
     border: 0;
 }
 
+.bar_game{
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    left: 773px;
+    top: 344px;
+    background-color: #9c9c9c;
+}
+
+.Back_{
+    position: absolute;
+    width: 37px;
+    height: 25px;
+    left: 730px;
+    top: 343px;
+}
+
+.back_{
+    margin: 0;
+    padding: 0;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    background: 0%;
+    border: 0;
+}
+
 .poppy{
     position: absolute;
     width: 46px;

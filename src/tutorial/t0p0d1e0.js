@@ -1,22 +1,36 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Choices from "../game_template/game_choice";
-import {Link} from "react-router-dom";
+import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
-
+import t2_0 from './t0p0d2.0';
+import t2_1 from './t0p0d2.1';
 
 export default class t1e0 extends React.Component{
-    render(){    
+    render(){   
+
+        function link() {
+            ReactDOM.render(
+                <Router>
+                    <Switch>
+                        <Route path="/game/t0p0d2.0" component={t2_0}/>
+                        <Route path="/game/t0p0d2.1"  component={t2_1}/>
+                    </Switch>
+                </Router>,
+                document.getElementById('root')
+            );
+        }
+
         return(
             <div className= "all">
                 <Choices />
                 <h1 className= "question_0">Você entendeu ou o quê?</h1>
-                <Link to="t0p0d2.0">
+                <Link onClick={link} to="t0p0d2.0">
                     <div className="choice_0">
-                    <p className="choice_0t">Entendi</p>
-
+                        <p className="choice_0t">Entendi</p>
                     </div>
                 </Link>
-                <Link to="t0p0d2.1">
+                <Link onClick={link} to="t0p0d2.1">
                     <div className="choice_1">
                         <p className="choice_1t">Me explica melhor</p>
                     </div>

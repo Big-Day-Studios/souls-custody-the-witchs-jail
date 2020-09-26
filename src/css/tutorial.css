@@ -33,5 +33,28 @@
 
 }
 
+.Play_{
+    position: absolute;
+    width: 37px;
+    height: 25px;
+    left: 674px;
+    top: 343px;
+}
 
+.bar_game___{
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    left: 717px;
+    top: 344px;
+    background-color: #9c9c9c;
+}
+
+.B_menu{
+    position: absolute;
+    width: 111px;
+    height: 25px;
+    left: 727px;
+    top: 344px;
+}
 
