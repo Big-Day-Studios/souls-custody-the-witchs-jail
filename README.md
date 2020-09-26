@@ -3,15 +3,20 @@ A browser Visual Novel game made in React.js
 <br/>
 <br/>
 <br/>
+
 ## About
 <br/>
+
 ### The Game
 "Souls Custody: The Witch's Jail" is the first game made by the group of indie game developers called "Big Day Studios". The game is tells the story of a 16 years girl called Rebecca. Rebecca has always had nightmares about an abandoned and 'haunted' store in her city. This store was built over of the ruins of an ancient underground construction. On an ordinary day, returning from her work, the young woman is the victim of attempted harassment, with the escape to shelter inside the store of her nightmares. And then, your soul leaves your body, causing it to enter the spiritual world. Devoid of her memories, Rebecca solves puzzles that lead to the release of the ghosts that she crosses on her way. Her goal is to recover your memories and get out of the haunted store, and to achieve that, she needs the lowest floor of the store.
+
 <br/>
+
 ### Our Team 
 Big Day Studios is a indie game developers group of hight school students.
 We're doing a technical course in programming and development of digital games.We have divided the work equally, and each one do some stuff to contribute with the project. <br/>
 The group members are:
+
 #### • Haru (Felipe) Marcoulakis de Borhtole — Producer, Programmer and Level Designer.
 #### • Arthur Monteiro Gois dos Santos — Sound Engineer.
 #### • Isabela Dias Cerqueira — Artist and Designer.
@@ -19,6 +24,7 @@ The group members are:
 #### • Juan Pablo Mendes Caetano — Puzzles Manager.
 <br/>
 <br/>
+
 ## How to run it
 
 In the project directory, you can run:
