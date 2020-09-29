@@ -8,6 +8,7 @@ import './css/menu.css'
 import t0 from './tutorial/t0p0d0';
 import About from './credits';
 import ena from './game_level/f0p0d000';
+import sign from './img/sign.png';
 
 
 
@@ -29,6 +30,9 @@ export default class Menu extends React.Component{
         return(
             
             <div className="all">
+                <div className='sign_container'>
+                    <img src={sign} alt="Souls custody: The witch's jail" className="game_sign" />
+                </div>
                 <div id="menu" className="menu">
                     <Link onClick={link} to="/game/f0p0d000">
                         <button className="play">Começar</button>

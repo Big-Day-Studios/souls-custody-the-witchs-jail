@@ -60,7 +60,7 @@ export default class About extends React.Component{
 
                         <h1 className="dev_h">Desenvolvimento</h1>
 
-                        <p className="dev_p">Felipe (Haru) Marcoulakis de Borthole<br></br>
+                        <p className="dev_p">Haru (Felipe) Marcoulakis de Borthole<br></br>
                             Arthur Monteiro Gois dos Santos<br></br>
                             Juan Pablo Mendes Caetano<br></br>
                             Isabela Dias Cerqueira<br></br>
