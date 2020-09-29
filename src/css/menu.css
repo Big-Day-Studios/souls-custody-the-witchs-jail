@@ -1,9 +1,8 @@
 .menu{
     position: absolute;
     width: 845px;
-    height: 480px;
-
-    
+    height: 480px;   
+    /*proporção 169 96*/ 
     background: linear-gradient(180deg, #000000 0%, #260151 100%);
 }
 
