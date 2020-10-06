@@ -43,5 +43,5 @@
     font-size: 16px;
     line-height: 26px;
 
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--main-white);
 }

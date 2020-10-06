@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import Choices from "../game_template/game_input";
+import Choices from "../game_template/porta/game_input";
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 import "../css/tutorial.css";
 import "../css/game_input.css";

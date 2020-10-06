@@ -5,9 +5,9 @@ import './css/index.css';
 import Splash from './splash';
 import Menu from './menu';
 import About from './credits';
-import ena from './game_level/f0p0d000';
-import dio from './game_level/f0p0d001';
-import choices from './game_template/game_choice';
+import f0p0d000 from './game_level/f0p0d000';
+import f0p0d001 from './game_level/f0p0d001';
+import choices from './game_template/porta/game_choice';
 import t0 from './tutorial/t0p0d0';
 import t1 from './tutorial/t0p0d1';
 import t1e0 from './tutorial/t0p0d1e0';
@@ -34,8 +34,8 @@ ReactDOM.render(
             <Route path="/game/t0p0d2e1" component={t2e1}/>
             <Route path="/game/t0p0d3" component={t3}/>
             <Route path="/game/t0p0d2i0" exact={false} component={t1i0} />
-            <Route path="/game/f0p0d000"  component={ena} />
-            <Route path="/game/f0p0d001"  component={dio} />
+            <Route path="/game/f0p0d000"  component={f0p0d000} />
+            <Route path="/game/f0p0d001"  component={f0p0d001} />
       </Switch>
   </ BrowserRouter>
   , document.getElementById('root')

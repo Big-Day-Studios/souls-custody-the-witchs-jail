@@ -37,7 +37,8 @@
     left: 350px;
     bottom: 420px;
     
-    background: #C4C4C4;
+    background: var(--button-color);
+    
 }
 
 .loading{

@@ -1,5 +1,6 @@
 #all_game_choice{
-    background-image: url(../img/background.svg);
+    background-image: url(../img/entrada_loja_background.png);
+    background-size: 845px 480px;
     mix-blend-mode: normal;
     filter: blur(8px);
 }
@@ -28,7 +29,7 @@
     font-size: 16px;
     line-height: 26px;
 
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--main-white);
 
 }
 
@@ -55,5 +56,5 @@
     font-size: 16px;
     line-height: 26px;
 
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--main-white);
 }

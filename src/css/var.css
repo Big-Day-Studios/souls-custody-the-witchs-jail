@@ -1,12 +1,14 @@
 :root{
     --main-color: #104060;
-    --main-white: #fcfcfc;
+    --main-white: #fcfcfce5 ;
     --main-font-family: "Yu Gothic";
     --color-input-hover: #1e90ff;
     --color-input-active: #1e8fff98;
     --button-color: #c4c4c4;
+    --button-background: linear-gradient(180deg, #C27AEF 0%, rgba(0, 0, 0, 0.9) 215.85%);
     --button-color-hover: #C27AEF;
     --border-color-hover: #9b9b9bb6;
+    --menu-background-color: linear-gradient(180deg, #000000 0%, #260151 100%);
 }
 
 *{

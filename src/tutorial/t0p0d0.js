@@ -1,14 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game from "../game_template/game_talk";
+import Game from "../game_template/porta/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import Menu from "../menu";
 import t1 from "./t0p0d1";
 
 export default class t0 extends React.Component{
+ 
+    
+
     render(){
         
+
+        function typeWriter(elemento) {
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = '';
+            textoArray.forEach((letra, i) => {
+              setTimeout(() => elemento.innerHTML += letra, 75 * i);
+            });        
+        }
+        
+          const titulo = document.getElementsByClassName('texto');
+          console.log(titulo);
+
+          typeWriter(titulo);
+          
+
+
+          
         function link() {
             ReactDOM.render(
                 <Router>
@@ -36,7 +56,7 @@ export default class t0 extends React.Component{
                     </div>
                 </Link>
                 <h1 className="poppy">Poppy</h1>
-                <p className="texto">
+                <p className="texto" >
                     Olá, eu sou a Poppy, você vai me conhecer mais pra frente. <br/>
                     Clique em próximo para continuar.
                 </p>

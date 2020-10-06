@@ -1,5 +1,6 @@
 #all_game_run{
-    background-image: url(../img/background.svg)
+    background-image: url(../img/entrada_loja_background.png);
+    background-size: 845px 480px;
 }
 
 .textArea{
@@ -39,7 +40,7 @@
     font-size: 12px;
     line-height: 19px;
 
-    color: #FFFFFF;
+    color: var(--main-white);
 
     background: 0%;
     border: 0;
@@ -71,7 +72,7 @@
     font-size: 12px;
     line-height: 19px;
 
-    color: #FFFFFF;
+    color: var(--main-white);
 
     background: 0%;
     border: 0;
@@ -90,7 +91,7 @@
     font-size: 16px;
     line-height: 26px;
 
-    color: #FFFFFF;
+    color: var(--main-white);
 
     mix-blend-mode: normal;
 }
@@ -106,5 +107,7 @@
     font-size: 16px;
     line-height: 26px;
 
-    color: #FFFFFF;
+    color: var(--main-white);
+
+    width: 808px;
 }

@@ -3,7 +3,7 @@
     width: 845px;
     height: 480px;   
     /*proporção 169 96*/ 
-    background: linear-gradient(180deg, #000000 0%, #260151 100%);
+    background: var(--menu-background-color);
 }
 
 
@@ -18,7 +18,7 @@ button:focus{
     left: 314px;
     top: 189px;
     
-    background: linear-gradient(180deg, #C27AEF 0%, rgba(0, 0, 0, 0.9) 215.85%);
+    background: var(--button-background);
     border-radius: 14px;
     border:0;
 
@@ -39,7 +39,7 @@ button:focus{
     left: 313px;
     top: 261px;
     
-    background: linear-gradient(180deg, #C27AEF 0%, rgba(0, 0, 0, 0.9) 215.85%);
+    background: var(--button-background);
     border-radius: 14px;
     border:0;
 
@@ -60,7 +60,7 @@ button:focus{
     left: 314px;
     top: 333px;
     
-    background: linear-gradient(180deg, #C27AEF 0%, rgba(0, 0, 0, 0.9) 215.85%);
+    background: var(--button-background);
     border-radius: 14px;
     border:0;
 

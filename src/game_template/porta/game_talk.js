@@ -1,6 +1,6 @@
 import React from 'react'
-import "../css/main.css";
-import "../css/game_index.css";
+import "../../css/main.css";
+import "../../css/game_index.css";
 
 
 

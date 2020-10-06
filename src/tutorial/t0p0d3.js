@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game from "../game_template/game_talk";
+import Game from "../game_template/porta/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import Menu from "../menu";
