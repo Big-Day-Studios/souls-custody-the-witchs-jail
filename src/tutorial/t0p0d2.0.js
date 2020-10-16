@@ -5,12 +5,21 @@ import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import t1e0 from './t0p0d1e0';
 import t1i0 from './t0p0d2i0';
+import Typical from 'react-typical';
+import refresh from "../img/refresh.svg";
 
 
 
 
 export default class t2_0 extends React.Component{
     render(){    
+
+
+        function refreshPage(){
+            window.location.reload();
+        } 
+
+
         function link() {
             ReactDOM.render(
                 <Router>
@@ -39,10 +48,18 @@ export default class t2_0 extends React.Component{
                 </Link>
                 <h1 className="poppy">Poppy</h1>
                 <p className="texto">
-                Na tela vai aparecer um “Input” onde você tem que digitar o resultado do enigma ou a resposta a alguma <br/>
-                pergunta, você tem que digitar em minúsculo e sem caracteres especiais.<br/>
-                Clique em próximo para continuar.
+                <br/>
+                <br/>
+                
                 </p>
+                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <Typical
+                steps={['Na tela vai aparecer um “Input” onde você tem que digitar o resultado do enigma ou a resposta a alguma pergunta,  você tem que digitar em minúsculo e sem caracteres especiais.',2500, 
+                'Clique em próximo para continuar.', 10]}
+                loop={1}
+                wrapper="p"
+                className="texto"
+                />
 
             </div>
         );

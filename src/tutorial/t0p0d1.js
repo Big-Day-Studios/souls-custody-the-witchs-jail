@@ -4,11 +4,18 @@ import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import Game from "../game_template/porta/game_talk";
 import "../css/tutorial.css";
 import t0 from './t0p0d0';
-import t1e0 from "./t0p0d1e0"
+import t1e0 from "./t0p0d1e0";
+import Typical from 'react-typical';
+import refresh from "../img/refresh.svg";
 
 
 export default class t1 extends React.Component{
     render(){     
+
+
+        function refreshPage(){
+            window.location.reload();
+        } 
 
         function link() {
             ReactDOM.render(
@@ -37,10 +44,15 @@ export default class t1 extends React.Component{
                     </div>
                 </Link>
                 <h1 className="poppy">Poppy</h1>
-                <p className="texto">
-                Eu vou tentar te ensinar como se joga essa coisa. <br/>
-                Você tem que escolher entre as opções que aparecem na tela para escolher seu rumo de história.
-                </p>
+                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <Typical
+                steps={['Eu vou tentar te ensinar como se joga essa coisa.',1500, 
+                'Você tem que escolher entre as opções que aparecem na tela para escolher seu rumo de história.', 10]}
+                loop={1}
+                wrapper="p"
+                className="texto"
+                />
+
 
             </div>
         );

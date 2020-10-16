@@ -5,10 +5,18 @@ import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import t2e1 from './t0p0d2e1';
 import t1e0 from './t0p0d1e0';
+import Typical from 'react-typical';
+import refresh from "../img/refresh.svg";
 
 
 export default class t2_1 extends React.Component{
     render(){    
+
+
+        function refreshPage(){
+            window.location.reload();
+        } 
+
         function link() {
             ReactDOM.render(
                 <Router>
@@ -36,11 +44,14 @@ export default class t2_1 extends React.Component{
                     </div>
                 </Link>
                 <h1 className="poppy">Poppy</h1>
-                <p className="texto">
-                Seguinte, você tem que clicar no botão de Próximo para ver o próximo trecho da história. <br/>
-                Depois, quando houverem decisões a serem tomadas, você vai escolher uma das opções sobre a<br/>
-                pergunta na tela seguinte. Isso faz você montar a história do jeito que você
-                </p>
+                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <Typical
+                steps={['Seguinte, você tem que clicar no botão de Próximo para ver o próximo trecho da história.',1500, 
+                'Depois, quando houverem decisões a serem tomadas, você vai escolher uma das opções sobre a pergunta na tela seguinte. Isso faz você montar a história do jeito que você quiser.', 10]}
+                loop={1}
+                wrapper="p"
+                className="texto"
+                />
 
             </div>
         );

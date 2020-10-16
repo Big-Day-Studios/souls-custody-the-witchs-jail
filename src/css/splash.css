@@ -133,7 +133,7 @@ img.splash_jrm{
     left: 264px;
     top: 165px;
     
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 300;
     font-size: 48px;
@@ -155,7 +155,7 @@ img.splash_jrm{
     left: 229px;
     top: 366px;
     
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 300;
     font-size: 24px;

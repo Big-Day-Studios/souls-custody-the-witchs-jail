@@ -20,7 +20,7 @@
     left: 26px;
     top:35px;
 
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
@@ -45,7 +45,7 @@
     left: 438px;
     top: 35px;
 
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -64,7 +64,7 @@
     left: 19px;
     top: 137px;
 
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -82,7 +82,7 @@
     left: 19px;
     top: 179px;
 
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -98,7 +98,7 @@
     left: 19px;
     top: 239px;
 
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -117,7 +117,7 @@
     left: 19px;
     top: 281px;
 
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -139,7 +139,7 @@
     left: 579px;
     top: 137px;
     
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -158,7 +158,7 @@
     left: 579px;
     top: 179px;
     
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -174,7 +174,7 @@
     left: 579px;
     top: 269px;
     
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -193,7 +193,7 @@
     left: 579px;
     top: 311px;
     
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 300;
     font-size: 14px;

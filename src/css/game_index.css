@@ -34,7 +34,7 @@
 }
 
 .next{
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -60,13 +60,20 @@
     width: 37px;
     height: 25px;
     left: 730px;
-    top: 343px;
+    top: 344px;
+}
+
+.refresh_text{
+    position: absolute;
+    left: 814px;
+    top: 447px;
+    cursor: pointer; 
 }
 
 .back_{
     margin: 0;
     padding: 0;
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -85,7 +92,7 @@
     left: 37px;
     top: 326px;
 
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -101,13 +108,12 @@
     left: 32px;
     top: 365px;
 
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
 
     color: var(--main-white);
-
-    width: 808px;
+    width: 792px
 }

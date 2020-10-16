@@ -1,7 +1,7 @@
 :root{
     --main-color: #104060;
-    --main-white: #fcfcfce5 ;
-    --main-font-family: "Yu Gothic";
+    --main-white: #fcfcfcbb ;
+    --main-font-family: 'Roboto', sans-serif;
     --color-input-hover: #1e90ff;
     --color-input-active: #1e8fff98;
     --button-color: #c4c4c4;

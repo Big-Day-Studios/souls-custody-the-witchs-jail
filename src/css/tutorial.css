@@ -2,16 +2,16 @@
     position: absolute;
     width: 444px;
     height: 58px;
-    left: 201px;
+    left: 228px;
     top: 130px;
 
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 58px;
 
-    color: rgba(0, 0, 0, 0.63);
+    color: var(--main-white);
 
 }
 
@@ -22,14 +22,14 @@
     left: 216px;
     top: 100px;
 
-    font-family: Yu Gothic;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 58px;
     text-align: center;
 
-    color: rgba(0, 0, 0, 0.63);
+    color: var(--main-white);
 
 }
 

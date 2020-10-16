@@ -5,11 +5,18 @@ import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import Menu from "../menu";
 import ena from '../game_level/f0p0d000';
+import Typical from 'react-typical';
+import refresh from "../img/refresh.svg";
 
 
 export default class t3 extends React.Component{
     render(){
         
+        function refreshPage(){
+            window.location.reload();
+        } 
+
+
         function link() {
             ReactDOM.render(
                 <Router>
@@ -37,7 +44,15 @@ export default class t3 extends React.Component{
                     </div>
                 </Link>
                 <h1 className="poppy">Poppy</h1>
-                <p className="texto">Certo! Então parece que você tá pronto para jogar!</p>
+                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <Typical
+                steps={['Certo!',750, 
+                'Então parece que você tá pronto para jogar!', 10]}
+                loop={1}
+                wrapper="p"
+                className="texto"
+                />
+                <p className="texto"></p>
 
             </div>
         );
