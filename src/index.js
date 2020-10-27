@@ -36,6 +36,7 @@ ReactDOM.render(
             <Route path="/game/choices_dp" component={Choices_dp} />
             <Route path="/game/game_es" component={Game_es} />
             <Route path="/game/game_dp" component={Game_dp} />
+            <Route path="/game/game_dor" component={Game_dor} />
             <Route path="/game/t0p0d0" component={t0}/>
             <Route path="/game/t0p0d1" component={t1}/>
             <Route path="/game/t0p0d1e0" component={t1e0} />
