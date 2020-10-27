@@ -4,10 +4,10 @@ import "../../css/game_index.css";
 
 
 
-export default class Game_dor extends React.Component{
+export default class Game_dp extends React.Component{
     render(){
         return(
-            <div id="all_game_run" className="all_game">
+            <div id="all_game_run_dp" className="all_game">
                 <div className="name"></div>
                 <div className="textArea"></div>
             </div>        

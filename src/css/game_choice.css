@@ -1,5 +1,22 @@
 #all_game_choice{
+    /*Fundo do game com o cenário da porta do choice e input*/
     background-image: url(../img/entrada_loja_background.png);
+    background-size: 845px 480px;
+    mix-blend-mode: normal;
+    filter: blur(8px);
+}
+
+#all_game_choice_es{
+    /*Fundo do game com o cenário de escada do choice e input*/
+    background-image: url(../img/escada.png);
+    background-size: 845px 480px;
+    mix-blend-mode: normal;
+    filter: blur(8px);
+}
+
+#all_game_choice_dp{
+    /*Fundo do game com o cenário de depósito do choice e input*/
+    background-image: url(../img/deposito.png);
     background-size: 845px 480px;
     mix-blend-mode: normal;
     filter: blur(8px);
@@ -29,7 +46,7 @@
     font-size: 16px;
     line-height: 26px;
 
-    color: var(--main-white);
+    color: var(--main-font-family-color);
 
 }
 
@@ -56,5 +73,5 @@
     font-size: 16px;
     line-height: 26px;
 
-    color: var(--main-white);
+    color: var(--main-font-family-color);
 }

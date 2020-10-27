@@ -6,7 +6,7 @@ import "../css/tutorial.css";
 import Menu from "../menu";
 import t1 from "./t0p0d1";
 import Typical from 'react-typical';
-import refresh from "../img/refresh.svg"
+import refresh from "../img/refresh.svg";
 
 
 

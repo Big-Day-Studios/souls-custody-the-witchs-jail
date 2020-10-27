@@ -3,10 +3,10 @@ import "../../css/main.css";
 import "../../css/game_choice.css";
 
 
-export default class Choices_dor extends React.Component{
+export default class Choices_es extends React.Component{
     render(){
         return(
-            <div id="all_game_choice" className="all_game">3
+            <div id="all_game_choice_es" className="all_game">3
             </div>        
         );
     }

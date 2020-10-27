@@ -11,7 +11,7 @@
     font-size: 36px;
     line-height: 58px;
 
-    color: var(--main-white);
+    color: var(--main-font-family-color);
 
 }
 
@@ -29,7 +29,7 @@
     line-height: 58px;
     text-align: center;
 
-    color: var(--main-white);
+    color: var(--main-font-family-color);
 
 }
 
