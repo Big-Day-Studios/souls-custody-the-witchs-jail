@@ -45,7 +45,7 @@ export default class f0p0d000 extends React.Component{
                         <p className="next">Próximo</p>
                     </div>
                 </Link>
-                <h1 className="poppy">Rebecca</h1>
+                <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
                 steps={['O que…?',1000, 'Onde estou? Não me lembro de nada...', 1000, 'Minha cabeça tá doendo e minhas roupas estão acabadas, que droga.', 1400, 'Não posso ficar parada aqui, tenho que descobrir onde eu tô, e por que eu tô aqui.', 10 ]}

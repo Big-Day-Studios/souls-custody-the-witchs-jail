@@ -116,6 +116,24 @@
     mix-blend-mode: normal;
 }
 
+.rebecca{
+    position: absolute;
+    width: 61px;
+    height: 26px;
+    left: 30px;
+    top: 326px;
+
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: var(--main-font-family-color);
+
+    mix-blend-mode: normal;
+}
+
 .texto{
     position: absolute;
     left: 32px;

@@ -8,7 +8,7 @@ import './css/menu.css'
 import t0 from './tutorial/t0p0d0';
 import About from './credits';
 import ena from './game_level/f0p0d000';
-import sign from './img/sign.png';
+import sign from './img/sign_standard.png';
 
 
 
