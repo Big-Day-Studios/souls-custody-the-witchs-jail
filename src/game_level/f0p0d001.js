@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 export default class f0p0d001 extends React.Component{
     render(){    
         return(
-            <div className= "all">
+            <div className= "all_game">
                 <Game />
                 <Link to="f0p0d002">
                     <div id="n1" className="Next">

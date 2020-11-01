@@ -33,7 +33,7 @@ export default class t0 extends React.Component{
         }
 
         return(
-            <div className= "all">
+            <div className= "all_game">
                 <Game />
                 <Link onClick={link} to="/menu">
                     <div id="b1" className="Back_">

@@ -13,7 +13,6 @@ import Game_dp from './game_template/deposito/game_talk';
 import Choices_es from './game_template/escada/game_choices';
 import Choices_dor from './game_template/porta/game_choice';
 import Choices_dp from './game_template/deposito/game_choices';
-
 import t0 from './tutorial/t0p0d0';
 import t1 from './tutorial/t0p0d1';
 import t1e0 from './tutorial/t0p0d1e0';

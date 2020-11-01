@@ -1,3 +1,4 @@
+
 .all{
     width: 100vw;
     height: 100vh;
@@ -6,18 +7,16 @@
 
 .all_game{
     background-color: var(--main-white);
-    top: 0;
-    left: 0;
     width: 845px;
     height: 480px;
+    position: absolute;
 }
 
 .all_credits{
     background-color: var(--main-white);
-    top: 0;
-    left: 0;
     width: 845px;
     height: 480px;
+    position: absolute;
 }
 .credits_page{
     display: none;
@@ -57,8 +56,14 @@
 
 .main_content{
     background-color: var(--main-white);
-    top: 0;
-    left: 0;
     width: 845px;
     height: 480px;
+}
+
+.load_b4{
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    display: none;
 }

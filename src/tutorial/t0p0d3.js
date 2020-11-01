@@ -30,7 +30,7 @@ export default class t3 extends React.Component{
         }
 
         return(
-            <div className= "all">
+            <div className= "all_game">
                 <Game />
                 <Link onClick={link} to="f0p0d000">
                     <div id="b1" className="Play_">

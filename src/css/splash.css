@@ -1,8 +1,6 @@
 .splash{
     transition: all 0.5s;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 845px;
     height: 480px;
     background-color: var(--main-white);
@@ -18,8 +16,6 @@
 
 .splash.display-none{
     opacity: 0 ;
-    top: 0;
-    left: 0;
     width: 845px;
     height: 480px;
     background-color: var(--main-white);
@@ -63,7 +59,7 @@ img.splash_jrm{
 }
 
 .splash_2{    
-    position: fixed;
+    position: absolute;
     opacity: 0 ;
     top: 0;
     left: 0;
@@ -71,36 +67,24 @@ img.splash_jrm{
     height: 480px;
     background-color: var(--main-white);
     z-index: -100;
-    text-align: center;
-    transition: all 0.7s;    
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 
 }
 
 .splash_2_{
     transition: all 0.7s;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 845px;
     height: 480px;
     background-color: var(--main-white);
     z-index: 200;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 
 
 .logo_bds_splash{
-    position: fixed;
+    position: relative;
     width: 86px;
     height: 117px;
     left: 380px;
@@ -108,20 +92,19 @@ img.splash_jrm{
 }
 
 .bds_presets{
-    
-    position: fixed;
+    position: relative;
     width: 100px;
-    height: 44px;
-    left: 374px;
-    top: 306px;
-
-    font-family: var(--main-font-family);
+    height: 44px; 
+    left: 374px;   
+    top: 188px;
+    
+    font-family: var(--main-font-family);  
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 22px; 
     text-align: center;
-
+    
     color: #000000;
 }
 
@@ -170,8 +153,6 @@ img.splash_jrm{
 .game_name{
     position: fixed;
     opacity: 0 ;
-    top: 0;
-    left: 0;
     width: 845px;
     height: 480px;
     background-color: var(--main-white);
@@ -186,8 +167,6 @@ img.splash_jrm{
 
 .game_name_{
     position: fixed;
-    top: 0;
-    left: 0;
     width: 845px;
     height: 480px;
     background-color: var(--main-white);

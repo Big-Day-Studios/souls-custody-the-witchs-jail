@@ -22,7 +22,7 @@ export default class t1e0 extends React.Component{
         }
 
         return(
-            <div className= "all">
+            <div className= "all_game">
                 <Choices />
                 <h1 className= "question_0">Você entendeu ou o quê?</h1>
                 <Link onClick={link} to="t0p0d2.0">

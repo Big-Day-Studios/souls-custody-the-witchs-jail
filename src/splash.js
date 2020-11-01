@@ -8,21 +8,21 @@ import $ from 'jquery';
 import './css/var.css';
 import './css/main.css';
 import './css/splash.css';
+import sign from './img/sign.png'
 import Menu from './menu';
 
 
 export default class App extends React.Component{
     render(){
         return (
-            <div className="all">
                 <div className="all_game">
                     <div className="splash">
                         <img className="splash_jrm" src={splash} alt="splash com logos da ETEC JRM, CPS."/>
                         <img src="img/load.png" alt="Unknown" className="load"/>
                     </div>
-                    <div id='splash_2' className="splash_2">                
-                        <img src={bds} className="logo_bds_splash" alt="logo bds"/>
-                        <h1 className="bds_presets">Big Day Studios<br></br>presents</h1>
+                    <div id='splash_2' className="splash_2">       
+                            <img src={bds} className="logo_bds_splash" alt="logo bds"/>
+                            <h1 className="bds_presets">Big Day Studios<br></br>presents</h1>
                     </div>
                     <div id="game_name" onLoad={s1} className="game_name">
                         <img src={logo} alt="Soul Custody: The Witch Jail" className="logo_start"/>
@@ -31,8 +31,8 @@ export default class App extends React.Component{
                     <div className="loading_container">
                         <p className="loading">carregando</p>
                     </div>
+                    <img src={sign} className="load_b4"></img>
                 </div>
-            </div>
         );
 
     function s1(){

@@ -25,8 +25,8 @@ export default class About extends React.Component{
             );
         }
 
-        return(    
-            <div className="all">
+        return(  
+            
                 <div id="all_credits" className="all_credits">
                     <div className="loading_container">
                         <p className="loading">carregando</p>
@@ -68,7 +68,6 @@ export default class About extends React.Component{
                         </p>
                     </div>
                 </div>
-            </div>
         )
     }
 }

@@ -8,7 +8,15 @@ import './css/menu.css'
 import t0 from './tutorial/t0p0d0';
 import About from './credits';
 import ena from './game_level/f0p0d000';
-import sign from './img/sign_standard.png';
+import sign from './img/sign.png';
+import back from './img/back.svg';
+import logo from './img/logo-min.png';
+import bds from './img/logo_bds.png';
+import bar from './img/vertical_bar.svg';
+import refresh from "./img/refresh.svg";
+import escada from "./img/escada.png";
+import porta from "./img/entrada_loja_background.png";
+
 
 
 
@@ -28,12 +36,10 @@ export default class Menu extends React.Component{
             );
         }
         return(
-            
-            <div className="all">
-                <div className='sign_container'>
-                    <img src={sign} alt="Souls custody: The witch's jail" className="game_sign" />
-                </div>
                 <div id="menu" className="menu">
+                    <div className='sign_container'>
+                        <img src={sign} alt="Souls custody: The witch's jail" className="game_sign" />
+                    </div>
                     <Link onClick={link} to="/game/f0p0d000">
                         <button className="play">Começar</button>
                     </Link>
@@ -43,8 +49,17 @@ export default class Menu extends React.Component{
                     <Link onClick={link} to="/about">
                         <button className="credits">Sobre o Jogo</button>
                     </Link>
+
+                    <img src={back} className="load_b4"></img>
+                    <img src={logo} className="load_b4"></img>
+                    <img src={bds} className="load_b4"></img>
+                    <img src={bar} className="load_b4"></img>
+
+                    <img src={refresh} className="load_b4"></img>
+                    <img src={escada} className="load_b4"></img>
+                    <img src={porta} className="load_b4"></img>
+                    
                 </div>
-            </div>
         );
 
 

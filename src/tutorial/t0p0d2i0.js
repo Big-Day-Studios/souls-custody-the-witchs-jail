@@ -31,7 +31,7 @@ export default class t1i0 extends React.Component{
         }
 
         return(
-            <div className="all">
+            <div className="all_game">
                 <Choices />
                 <h1 className="input_tittle">Digite “continuar” para<br/>prosseguir</h1>
                 <form name="form1" action="#" onSubmit={right}>
