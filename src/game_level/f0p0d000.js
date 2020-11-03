@@ -6,7 +6,8 @@ import "../css/tutorial.css";
 import Menu from "../menu";
 import Typical from 'react-typical';
 import refresh from "../img/refresh.svg";
-import f0p0d001 from "./f0p0d001"
+import f0p0d001 from "./f0p0d001";
+
 
 
 export default class f0p0d000 extends React.Component{
@@ -53,7 +54,6 @@ export default class f0p0d000 extends React.Component{
                 wrapper="p"
                 className="texto"
                 />
-
             </div>
         );
     }

@@ -16,7 +16,7 @@ import bar from './img/vertical_bar.svg';
 import refresh from "./img/refresh.svg";
 import escada from "./img/escada.png";
 import porta from "./img/entrada_loja_background.png";
-
+import EndThemeSOng from "./audio/pages/EndThemeSOng"
 
 
 
@@ -37,6 +37,7 @@ export default class Menu extends React.Component{
         }
         return(
                 <div id="menu" className="menu">
+                    
                     <div className='sign_container'>
                         <img src={sign} alt="Souls custody: The witch's jail" className="game_sign" />
                     </div>
@@ -58,8 +59,10 @@ export default class Menu extends React.Component{
                     <img src={refresh} className="load_b4"></img>
                     <img src={escada} className="load_b4"></img>
                     <img src={porta} className="load_b4"></img>
+                    <EndThemeSOng/>
                     
                 </div>
+
         );
 
 
