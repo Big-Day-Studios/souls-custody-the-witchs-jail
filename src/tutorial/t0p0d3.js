@@ -7,6 +7,7 @@ import Menu from "../menu";
 import ena from '../game_level/f0p0d000';
 import Typical from 'react-typical';
 import refresh from "../img/refresh.svg";
+import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
 
 export default class t3 extends React.Component{
@@ -20,6 +21,7 @@ export default class t3 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
+                    <Route path="/game/" component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/menu" component={Menu} />
                         <Route path="/game/f0p0d000" component={ena} />

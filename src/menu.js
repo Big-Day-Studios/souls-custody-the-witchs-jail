@@ -17,7 +17,7 @@ import refresh from "./img/refresh.svg";
 import escada from "./img/escada.png";
 import porta from "./img/entrada_loja_background.png";
 import EndThemeSOng from "./audio/pages/EndThemeSOng"
-
+import TheBackgroundScreams from './audio/pages/TheBackgroundScreams';
 
 
 export default class Menu extends React.Component{
@@ -26,6 +26,7 @@ export default class Menu extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
+                    <Route path="/game/" component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/game/f0p0d000"  component={ena} />
                         <Route path="/game/t0p0d0" component={t0}/>
@@ -60,7 +61,6 @@ export default class Menu extends React.Component{
                     <img src={escada} className="load_b4"></img>
                     <img src={porta} className="load_b4"></img>
                     <EndThemeSOng/>
-                    
                 </div>
 
         );

@@ -4,6 +4,7 @@ import Choices from "../game_template/porta/game_choice";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import t2_0 from './t0p0d2.0';
+import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
 
 export default class t2e1 extends React.Component{
@@ -12,6 +13,7 @@ export default class t2e1 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
+                    <Route path="/game/" component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/game/t0p0d2.0" component={t2_0}/>
                     </Switch>

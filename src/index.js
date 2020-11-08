@@ -21,13 +21,16 @@ import t2_1 from './tutorial/t0p0d2.1';
 import t2e1 from './tutorial/t0p0d2e1';
 import t1i0 from './tutorial/t0p0d2i0';
 import t3 from './tutorial/t0p0d3';
-
+import Timer from './game_template/timer';
+import TheBackgroundScreams from './audio/pages/TheBackgroundScreams'
 
 
 ReactDOM.render(
   <BrowserRouter>
+              <Route path="/game/" component={TheBackgroundScreams} />
       <Switch>
             <Route path="/" exact={true} component={Splash} />
+            <Route path="/speech" exact={true} component={Timer} />
             <Route path="/menu" component={Menu} />
             <Route path="/about" component={About} />
             <Route path="/game/choices_dor" component={Choices_dor} />

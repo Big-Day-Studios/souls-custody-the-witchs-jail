@@ -7,6 +7,7 @@ import Menu from "../menu";
 import t1 from "./t0p0d1";
 import Typical from 'react-typical';
 import refresh from "../img/refresh.svg";
+import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
 
 
@@ -23,6 +24,7 @@ export default class t0 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
+                    <Route path="/game/" component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/menu" component={Menu} />
                         <Route path="/game/t0p0d1" component={t1} />

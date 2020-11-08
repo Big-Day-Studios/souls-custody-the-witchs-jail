@@ -1,5 +1,5 @@
 import React from 'react';
-import TheBackgroundScreams from"../aac/TheBackgroundScreams.aac";
+import theBackgroundScreams from"../aac/TheBackgroundScreams.aac";
 
 
 export default class TheBackgroundScreams extends React.Component{
@@ -7,7 +7,7 @@ export default class TheBackgroundScreams extends React.Component{
         return(
             <div id="player" className="player">
                 <audio autoPlay loop>
-                    <source src={TheBackgroundScreams} type="audio/aac" />
+                    <source src={theBackgroundScreams} type="audio/aac" />
                 </audio>
             </div>
         );

@@ -75,3 +75,17 @@
 
     color: var(--main-font-family-color);
 }
+
+.question_1{
+    position: absolute;
+    width: 261px;
+    height: 58px;
+    left: 300px;
+    top: 130px;
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 58px;
+    color: var(--main-font-family-color);
+}

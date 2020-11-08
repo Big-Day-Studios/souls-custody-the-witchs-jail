@@ -5,11 +5,13 @@ import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom
 import "../css/tutorial.css";
 import "../css/game_input.css";
 import t3 from './t0p0d3';
+import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
 
 
 export default class t1i0 extends React.Component{
     render(){    
+
 
         function right(){
             var answer = document.getElementById('answer').value;
@@ -18,6 +20,7 @@ export default class t1i0 extends React.Component{
                 alert("Acertou");
                 ReactDOM.render(
                     <Router>
+                        <Route path="/game/" component={TheBackgroundScreams} />
                         <Switch>
                             <Route path="/game/t0p0d3" component={t3} />
                         </Switch>

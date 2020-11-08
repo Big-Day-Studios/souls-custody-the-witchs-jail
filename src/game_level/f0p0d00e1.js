@@ -1,19 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game from "../game_template/porta/game_talk";
+import Game_es from "../game_template/escada/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
-import t2e1 from './t0p0d2e1';
-import t1e0 from './t0p0d1e0';
+import Menu from "../menu";
 import Typical from 'react-typical';
 import refresh from "../img/refresh.svg";
+import f0p0d001 from "./f0p0d001";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
 
 
-export default class t2_1 extends React.Component{
-    render(){    
+export default class f0p0d00e1 extends React.Component{
+ 
+    
 
+    render(){
+    
 
         function refreshPage(){
             window.location.reload();
@@ -24,8 +27,8 @@ export default class t2_1 extends React.Component{
                 <Router>
                     <Route path="/game/" component={TheBackgroundScreams} />
                     <Switch>
-                        <Route path="/game/t0p0d2e1" component={t2e1} />
-                        <Route path="/game/t0p0d1e0" component={t1e0} />
+                        <Route path="/menu" component={Menu} />
+                        <Route path="/game/t0p0d1" component={f0p0d001} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')
@@ -34,28 +37,26 @@ export default class t2_1 extends React.Component{
 
         return(
             <div className= "all_game">
-                <Game />
-                <Link onClick={link} to="t0p0d1e0">
+                <Game_es />
+                <Link onClick={link} to="/menu">
                     <div id="b1" className="Back_">
                         <p className="back_">Voltar</p>
                     </div>
                 </Link>
                 <div className="bar_game"/>
-                <Link  onClick={link} to="t0p0d2e1">
-                    <div  id="n1" className="Next">
+                <Link onClick={link} to="t0p0d1">
+                    <div id="n1" className="Next">
                         <p className="next">Próximo</p>
                     </div>
                 </Link>
-                <h1 className="poppy">Poppy</h1>
+                <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Seguinte, você tem que clicar no botão de Próximo para ver o próximo trecho da história.',1500, 
-                'Depois, quando houverem decisões a serem tomadas, você vai escolher uma das opções sobre a pergunta na tela seguinte. Isso faz você montar a história do jeito que você quiser.', 10]}
+                steps={['O que…?',1000, 'Onde estou? Não me lembro de nada...', 1000, 'Minha cabeça tá doendo e minhas roupas estão acabadas, que droga.', 1400, 'Não posso ficar parada aqui, tenho que descobrir onde eu tô, e por que eu tô aqui.', 10 ]}
                 loop={1}
                 wrapper="p"
                 className="texto"
                 />
-
             </div>
         );
     }

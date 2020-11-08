@@ -7,6 +7,7 @@ import Menu from "../menu";
 import Typical from 'react-typical';
 import refresh from "../img/refresh.svg";
 import f0p0d001 from "./f0p0d001";
+import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
 
 
@@ -16,6 +17,7 @@ export default class f0p0d000 extends React.Component{
 
     render(){
     
+
         function refreshPage(){
             window.location.reload();
         } 
@@ -23,9 +25,10 @@ export default class f0p0d000 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
+                    <Route path="/game/" component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/menu" component={Menu} />
-                        <Route path="/game/t0p0d1" component={f0p0d001} />
+                        <Route path="/game/f0p0d001" component={f0p0d001} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')
@@ -41,7 +44,7 @@ export default class f0p0d000 extends React.Component{
                     </div>
                 </Link>
                 <div className="bar_game"/>
-                <Link onClick={link} to="t0p0d1">
+                <Link onClick={link} to="f0p0d001">
                     <div id="n1" className="Next">
                         <p className="next">Próximo</p>
                     </div>

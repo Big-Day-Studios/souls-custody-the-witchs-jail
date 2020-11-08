@@ -7,6 +7,8 @@ import t1e0 from './t0p0d1e0';
 import t1i0 from './t0p0d2i0';
 import Typical from 'react-typical';
 import refresh from "../img/refresh.svg";
+import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
+
 
 
 
@@ -23,6 +25,7 @@ export default class t2_0 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
+                    <Route path="/game/" component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/game/t0p0d1e0" component={t1e0} />
                         <Route path="/game/t0p0d2i0" component={t1i0} />
