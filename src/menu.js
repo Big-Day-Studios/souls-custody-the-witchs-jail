@@ -7,7 +7,7 @@ import './css/splash.css';
 import './css/menu.css'
 import t0 from './tutorial/t0p0d0';
 import About from './credits';
-import ena from './game_level/f0p0d000';
+import f0p0d000 from './game_level/f0p0d000';
 import sign from './img/sign.png';
 import back from './img/back.svg';
 import logo from './img/logo-min.png';
@@ -28,7 +28,7 @@ export default class Menu extends React.Component{
                 <Router>
                     <Route path="/game/" component={TheBackgroundScreams} />
                     <Switch>
-                        <Route path="/game/f0p0d000"  component={ena} />
+                        <Route path="/game/f0p0d000"  component={f0p0d000} />
                         <Route path="/game/t0p0d0" component={t0}/>
                         <Route path="/about" component={About} />
                     </Switch>

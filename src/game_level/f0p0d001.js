@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import Choices_es from "../game_template/escada/game_choices";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_choice.css";
-import f0p0d00d1 from "./f0p0d00d1";
-import f0p0d00e1 from "./f0p0d00e1";
+import f0p0d00d1 from "./e1-0/f0p0d00d1_0";
+import f0p0d00e1 from "./e1-0/f0p0d00d1_2";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
 
 
-export default class f0p0d000 extends React.Component{
+export default class f0p0d001 extends React.Component{
  
     
 
