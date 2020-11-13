@@ -1,20 +1,34 @@
 #all_game_run{
     /*Fundo do game com o cenário de porta do index*/
-    background-image: url(../img/entrada_loja_background.png);
+    background-image: url(../img/cenarios/entrada_loja_background.png);
     background-size: 845px 480px;
 }
 
 #all_game_run_es{
     /*Fundo do game com o cenário de escada do index*/
-    background-image: url(../img/escada.png);
+    background-image: url(../img/cenarios/escada.png);
     background-size: 845px 480px;
 }
 
 #all_game_run_dp{
     /*Fundo do game com o cenário de depósito do index*/
-    background-image: url(../img/deposito.png);
+    background-image: url(../img/cenarios/deposito.png);
     background-size: 845px 480px;
 }
+
+#all_game_run_dp-zoom{
+    /*Fundo do game com o cenário de depósito do index*/
+    background-image: url(../img/cenarios/deposito.png);
+    background-size: 1690px 960px;
+    background-position: center 0;
+}
+
+#all_game_run_up{
+    /*Fundo do game com o cenário do andar de cima*/
+    background-image: url(../img/cenarios/cima.png);
+    background-size: 845px 480px;
+}
+
 
 .textArea{
     position: absolute;

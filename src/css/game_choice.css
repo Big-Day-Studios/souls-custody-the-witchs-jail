@@ -1,6 +1,6 @@
 #all_game_choice{
     /*Fundo do game com o cenário da porta do choice e input*/
-    background-image: url(../img/entrada_loja_background.png);
+    background-image: url(../img/cenarios/entrada_loja_background.png);
     background-size: 845px 480px;
     mix-blend-mode: normal;
     filter: blur(8px);
@@ -8,7 +8,7 @@
 
 #all_game_choice_es{
     /*Fundo do game com o cenário de escada do choice e input*/
-    background-image: url(../img/escada.png);
+    background-image: url(../img/cenarios/escada.png);
     background-size: 845px 480px;
     mix-blend-mode: normal;
     filter: blur(8px);
@@ -16,7 +16,15 @@
 
 #all_game_choice_dp{
     /*Fundo do game com o cenário de depósito do choice e input*/
-    background-image: url(../img/deposito.png);
+    background-image: url(../img/cenarios/deposito.png);
+    background-size: 845px 480px;
+    mix-blend-mode: normal;
+    filter: blur(8px);
+}
+
+#all_game_choice_up{
+    /*Fundo do game com o cenário do andar de cima do choice e input*/
+    background-image: url(../img/cenarios/cima.png);
     background-size: 845px 480px;
     mix-blend-mode: normal;
     filter: blur(8px);

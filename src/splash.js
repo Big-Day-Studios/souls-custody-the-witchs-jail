@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter,Route, Switch, Redirect} from "react-router-dom";
 import splash from './img/splash.png';
-import bds from './img/logo_bds.png';
-import logo from './img/logo-min.png';
+import bds from './img/logos/logo_bds.png';
+import logo from './img/logos/logo-min.png';
 import $ from 'jquery';
 import './css/var.css';
 import './css/main.css';
 import './css/splash.css';
-import sign from './img/sign.png'
+import sign from './img/logos/sign.png'
 import Menu from './menu';
 
 
@@ -18,7 +18,7 @@ export default class App extends React.Component{
                 <div className="all_game">
                     <div className="splash">
                         <img className="splash_jrm" src={splash} alt="splash com logos da ETEC JRM, CPS."/>
-                        <img src="img/load.png" alt="Unknown" className="load"/>
+                        <img src="img/icons/load.png" alt="Unknown" className="load"/>
                     </div>
                     <div id='splash_2' className="splash_2">       
                             <img src={bds} className="logo_bds_splash" alt="logo bds"/>

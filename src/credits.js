@@ -1,10 +1,10 @@
 import React from 'react';
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import ReactDOM from "react-dom";
-import back from './img/back.svg';
-import logo from './img/logo-min.png';
-import bds from './img/logo_bds.png';
-import bar from './img/vertical_bar.svg';
+import back from './img/icons/back.svg';
+import logo from './img/logos/logo-min.png';
+import bds from './img/logos/logo_bds.png';
+import bar from './img/icons/vertical_bar.svg';
 import './css/var.css';
 import './css/main.css';
 import './css/credits.css';

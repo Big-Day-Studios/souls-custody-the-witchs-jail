@@ -6,7 +6,7 @@ import "../css/tutorial.css";
 import Menu from "../menu";
 import ena from '../game_level/f0p0d000';
 import Typical from 'react-typical';
-import refresh from "../img/refresh.svg";
+import refresh from "../img/icons/refresh.svg";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
 

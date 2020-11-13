@@ -67,3 +67,23 @@
     height: 0px;
     display: none;
 }
+
+.soul-poppy-1{
+    height: 331px;
+    position: absolute;
+    top: 72px;
+    left: 316px;
+}
+
+.soul-poppy-1-zoom-container{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    height: 479px;
+    width: 742.4px;
+    overflow: hidden;
+}
+
+.soul-poppy-1-zoom{
+    width: 742.4px;
+}
