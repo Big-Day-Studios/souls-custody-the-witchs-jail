@@ -6,7 +6,7 @@ import "../css/tutorial.css";
 import t1e0 from './t0p0d1e0';
 import t1i0 from './t0p0d2i0';
 import Typical from 'react-typical';
-import refresh from "../img/refresh.svg";
+import refresh from "../img/icons/refresh.svg";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
 

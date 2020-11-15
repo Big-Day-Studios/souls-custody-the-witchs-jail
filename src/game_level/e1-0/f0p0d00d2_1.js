@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game_dp from "../../game_template/deposito/game_talk";
+import Game_up from "../../game_template/cima/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../../css/tutorial.css";
 import f0p0d00d1_1 from "./f0p0d00d1_1";
 import Typical from 'react-typical';
-import refresh from "../../img/refresh.svg";
+import refresh from "../../img/icons/refresh.svg";
 import f0p0d00d2_0 from "./f0p0d00d2_0";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
 
@@ -25,7 +25,7 @@ export default class f0p0d00d2_1 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/" component={TheBackgroundScreams} />
+                    <Route path="/game/" exact={false} component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/game/f0p0d00d1_1" component={f0p0d00d1_1} />
                         <Route path="/game/f0p0d00d2_0" component={f0p0d00d2_0} />
@@ -37,7 +37,7 @@ export default class f0p0d00d2_1 extends React.Component{
 
         return(
             <div className= "all_game">
-                <Game_dp />
+                <Game_up />
                 <Link onClick={link} to="f0p0d00d1_1">
                     <div id="b1" className="Back_">
                         <p className="back_">Voltar</p>
@@ -52,7 +52,7 @@ export default class f0p0d00d2_1 extends React.Component{
                 <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Não entendi nada do que ele disse.', 1000, ' Vou ver se acho uma dica em algum outro lugar.', 10 ]}
+                steps={['', 1000, '', 10 ]}
                 loop={1}
                 wrapper="p"
                 className="texto"

@@ -5,7 +5,7 @@ import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import Menu from "../menu";
 import Typical from 'react-typical';
-import refresh from "../img/refresh.svg";
+import refresh from "../img/icons/refresh.svg";
 import f0p0d001 from "./f0p0d001";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
@@ -25,7 +25,7 @@ export default class f0p0d000 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/" component={TheBackgroundScreams} />
+                    <Route path="/game/"  component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/menu" component={Menu} />
                         <Route path="/game/f0p0d001" component={f0p0d001} />
