@@ -8,7 +8,9 @@ export default class Choices_dp extends React.Component{
     render(){
         return(
             <div id="all_game_choice_dp" className="all_game">
-                <img className="soul-poppy-1" src={soul} />
+                <div className="soul-poppy-1-container">
+                    <img className="soul-poppy-1" src={soul} />
+                </div>
             </div>        
         );
     }

@@ -52,7 +52,7 @@ export default class f0p0d00d1_1 extends React.Component{
                 <h1 className="poppy">??????</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['sonretni solugna sod amos.', 10 ]}
+                steps={['.onogartet mu ed sonretni solugna sod amos.', 10 ]}
                 loop={1}
                 wrapper="p"
                 className="texto"

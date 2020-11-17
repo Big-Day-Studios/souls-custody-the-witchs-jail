@@ -20,7 +20,7 @@
     /*Fundo do game com o cenário de depósito do index*/
     background-image: url(../img/cenarios/deposito.png);
     background-size: 1690px 960px;
-    background-position: center 0;
+    background-position: -402.5px -100px;
 }
 
 #all_game_run_up{

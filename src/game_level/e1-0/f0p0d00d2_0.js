@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Choices_es from "../../game_template/escada/game_choices";
+import Choices_dp from "../../game_template/deposito/poppy/soul-1/game_choices";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../../css/game_choice.css";
 import f0p0d00d2_1 from "./f0p0d00d2_1";
@@ -27,7 +27,7 @@ export default class f0p0d00d2_0 extends React.Component{
 
         return(
             <div className= "all_game">
-                <Choices_es/>
+                <Choices_dp/>
                 <h1 className= "question_1U">O que vai fazer?</h1>
                 <Link onClick={link} to="f0p0d00d2_1">
                     <div className="choice_U">

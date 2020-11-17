@@ -12,6 +12,16 @@ import f0p0d00d1_1 from './game_level/e1-0/f0p0d00d1_1';
 import f0p0d00d1_2 from './game_level/e1-0/f0p0d00d1_2';
 import f0p0d00d2_0 from './game_level/e1-0/f0p0d00d2_0';
 import f0p0d00d2_1 from './game_level/e1-0/f0p0d00d2_1';
+import f0p0d00d2_2 from './game_level/e1-0/f0p0d00d2_2';
+import f0p0d00d2_3 from './game_level/e1-0/f0p0d00d2_3';
+import f0p0d00d2_4 from './game_level/e1-1/f0p0d00d1__5';
+import f0p0d00d1__0 from './game_level/e1-1/f0p0d00d1__0';
+import f0p0d00d1__1 from './game_level/e1-1/f0p0d00d1__1';
+import f0p0d00d1__2 from './game_level/e1-1/f0p0d00d1__2';
+import f0p0d00d1__3 from './game_level/e1-1/f0p0d00d1__3';
+import f0p0d00d1__4 from './game_level/e1-1/f0p0d00d1__4';
+import f0p0d00d1__5 from './game_level/e1-1/f0p0d00d1__5';
+
 import Game_dor from './game_template/porta/game_talk';
 import Game_es from './game_template/escada/game_talk';
 import Game_dp from './game_template/deposito/game_talk';
@@ -57,6 +67,15 @@ ReactDOM.render(
             <Route path="/game/f0p0d00d1_2"  component={f0p0d00d1_2} />
             <Route path="/game/f0p0d00d2_0"  component={f0p0d00d2_0} />
             <Route path="/game/f0p0d00d2_1"  component={f0p0d00d2_1} />  
+            <Route path="/game/f0p0d00d2_2"  component={f0p0d00d2_2} />  
+            <Route path="/game/f0p0d00d2_3"  component={f0p0d00d2_3} />  
+            <Route path="/game/f0p0d00d2_4"  component={f0p0d00d2_4} />  
+            <Route path="/game/f0p0d00d1__0" component={f0p0d00d1__0} />
+            <Route path="/game/f0p0d00d1__1" component={f0p0d00d1__1} />
+            <Route path="/game/f0p0d00d1__2" component={f0p0d00d1__2} />
+            <Route path="/game/f0p0d00d1__3" component={f0p0d00d1__3} />
+            <Route path="/game/f0p0d00d1__4" component={f0p0d00d1__4} />
+            <Route path="/game/f0p0d00d1__5" component={f0p0d00d1__5} />
       </Switch>
   </ BrowserRouter>
   , document.getElementById('root')
