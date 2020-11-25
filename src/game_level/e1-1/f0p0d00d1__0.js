@@ -8,6 +8,7 @@ import Typical from 'react-typical';
 import refresh from "../../img/icons/refresh.svg";
 import f0p0d00d1__1 from "./f0p0d00d1__1";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
+import Game_up from "../../game_template/cima/game_talk";
 
 
 
@@ -57,6 +58,7 @@ export default class f0p0d00d1__0 extends React.Component{
                 wrapper="p"
                 className="texto"
                 />
+                    <img src={Game_up} className="load_b4"></img>
             </div>
         );
     }

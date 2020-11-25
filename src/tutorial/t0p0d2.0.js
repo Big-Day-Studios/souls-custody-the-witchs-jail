@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game from "../game_template/porta/game_talk";
+import Game from "../game_template/porta/poppy/p0/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import t1e0 from './t0p0d1e0';
@@ -8,7 +8,7 @@ import t1i0 from './t0p0d2i0';
 import Typical from 'react-typical';
 import refresh from "../img/icons/refresh.svg";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-
+import poppy from '../img/personagens/poppy/original/normal/poppy.png'
 
 
 
@@ -63,6 +63,9 @@ export default class t2_0 extends React.Component{
                 wrapper="p"
                 className="texto"
                 />
+
+                <img src={poppy} className="load_b4"></img>
+
 
             </div>
         );

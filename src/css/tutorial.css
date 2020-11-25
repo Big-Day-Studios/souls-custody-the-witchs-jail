@@ -39,6 +39,8 @@
     height: 25px;
     left: 674px;
     top: 343px;
+
+    z-index: 200;
 }
 
 .bar_game___{
@@ -56,5 +58,7 @@
     height: 25px;
     left: 727px;
     top: 344px;
+
+    z-index: 200;
 }
 

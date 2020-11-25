@@ -21,12 +21,12 @@ import f0p0d00d1__2 from './game_level/e1-1/f0p0d00d1__2';
 import f0p0d00d1__3 from './game_level/e1-1/f0p0d00d1__3';
 import f0p0d00d1__4 from './game_level/e1-1/f0p0d00d1__4';
 import f0p0d00d1__5 from './game_level/e1-1/f0p0d00d1__5';
-
+import f0p0d003 from './game_level/f0p0d003';
 import Game_dor from './game_template/porta/game_talk';
 import Game_es from './game_template/escada/game_talk';
 import Game_dp from './game_template/deposito/game_talk';
 import Choices_es from './game_template/escada/game_choices';
-import Choices_dor from './game_template/porta/game_choice';
+import Choices_dor from './game_template/porta/poppy/p2/game_choice';
 import Choices_dp from './game_template/deposito/game_choices';
 import t0 from './tutorial/t0p0d0';
 import t1 from './tutorial/t0p0d1';
@@ -41,7 +41,9 @@ import TheBackgroundScreams from './audio/pages/TheBackgroundScreams'
 
 ReactDOM.render(
   <BrowserRouter>
-              <Route path="/game/" component={TheBackgroundScreams} />
+              <Route path="/game/f" component={TheBackgroundScreams} />
+              <Route path="/game/t" component={TheBackgroundScreams} />
+
       <Switch>
             <Route path="/" exact={true} component={Splash} />
             <Route path="/menu" component={Menu} />
@@ -76,6 +78,7 @@ ReactDOM.render(
             <Route path="/game/f0p0d00d1__3" component={f0p0d00d1__3} />
             <Route path="/game/f0p0d00d1__4" component={f0p0d00d1__4} />
             <Route path="/game/f0p0d00d1__5" component={f0p0d00d1__5} />
+            <Route path="/game/f0p0d003" component={f0p0d003} />
       </Switch>
   </ BrowserRouter>
   , document.getElementById('root')

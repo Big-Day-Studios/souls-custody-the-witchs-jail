@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import Choices from "../game_template/porta/game_choice";
+import Choices from "../game_template/porta/poppy/p0/game_choice";
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 import "../css/tutorial.css";
 import "../css/game_input.css";
 import t3 from './t0p0d3';
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-
+import poppy from '../img/personagens/poppy/original/normal/poppy1.png'
 
 
 export default class t1i0 extends React.Component{
@@ -41,6 +41,8 @@ export default class t1i0 extends React.Component{
                     <input type="text" id="answer" name="answer" className="answer" placeholder="Digite aqui" />
                     <input type="submit" className="send" value="Enviar"/>
                 </form>
+                <img src={poppy} className="load_b4"></img>
+
             </div>
         );
     }

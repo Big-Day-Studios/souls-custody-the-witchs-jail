@@ -6,15 +6,19 @@ import "../css/game_choice.css";
 import f0p0d00d1_0 from "./e1-0/f0p0d00d1_0";
 import f0p0d00d1__0 from "./e1-1/f0p0d00d1__0";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-
-
-
+import deposito from '../img/cenarios/deposito.png';
+import soul from  '../img/personagens/poppy/original/soul/alma.png'
+import refresh from '../img/icons/refresh.svg'
 export default class f0p0d001 extends React.Component{
  
     
 
     render(){
-    
+
+        function refreshPage(){
+            window.location.reload();
+        } 
+
         function link() {
             ReactDOM.render(
                 <Router>
@@ -42,6 +46,11 @@ export default class f0p0d001 extends React.Component{
                         <p className="choice_1t">Entrar pela porta</p>
                     </div>
                 </Link>
+                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <img src={deposito} className="load_b4"></img>
+                <img src={soul} className="load_b4"></img>
+
+                
             </div>
         );
     }

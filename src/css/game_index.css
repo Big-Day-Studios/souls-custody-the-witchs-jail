@@ -39,6 +39,7 @@
 
     background: #000000;
     opacity: 0.6;
+    z-index: 99;
 }
 
 .name{
@@ -50,6 +51,7 @@
 
     background: #000000;
     border-radius: 2px;
+    z-index: 100;
 }
 
 .Next{
@@ -58,6 +60,8 @@
     height: 25px;
     left: 783px;
     top: 344px;
+
+    z-index: 200;
 }
 
 .next{
@@ -71,6 +75,8 @@
 
     background: 0%;
     border: 0;
+
+    z-index: 200;
 }
 
 .bar_game{
@@ -80,6 +86,8 @@
     left: 773px;
     top: 344px;
     background-color: #9c9c9c;
+
+    z-index: 200;
 }
 
 .Back_{
@@ -88,6 +96,8 @@
     height: 25px;
     left: 730px;
     top: 344px;
+
+    z-index: 200;
 }
 
 .refresh_text{
@@ -95,6 +105,8 @@
     left: 814px;
     top: 447px;
     cursor: pointer; 
+
+    z-index: 200;
 }
 
 .back_{
@@ -110,6 +122,8 @@
 
     background: 0%;
     border: 0;
+
+    z-index: 200;
 }
 
 .poppy{
@@ -128,6 +142,8 @@
     color: var(--main-font-family-color);
 
     mix-blend-mode: normal;
+
+    z-index: 200;
 }
 
 .rebecca{
@@ -146,6 +162,9 @@
     color: var(--main-font-family-color);
 
     mix-blend-mode: normal;
+
+    z-index: 200;
+
 }
 
 .texto{
@@ -160,5 +179,7 @@
     line-height: 26px;
 
     color: var(--main-font-family-color);
-    width: 792px
+    width: 792px;
+
+    z-index: 200;
 }

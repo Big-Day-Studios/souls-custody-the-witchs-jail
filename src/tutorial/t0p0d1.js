@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
-import Game from "../game_template/porta/game_talk";
+import Game from "../game_template/porta/poppy/p1/game_talk";
 import "../css/tutorial.css";
 import t0 from './t0p0d0';
 import t1e0 from "./t0p0d1e0";

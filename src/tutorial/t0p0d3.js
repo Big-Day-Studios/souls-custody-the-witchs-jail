@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game from "../game_template/porta/game_talk";
+import Game from "../game_template/porta/poppy/p1/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import Menu from "../menu";
@@ -8,8 +8,8 @@ import ena from '../game_level/f0p0d000';
 import Typical from 'react-typical';
 import refresh from "../img/icons/refresh.svg";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-
-
+import sign from '../img/logos/sign_standard.png'
+import escada from '../img/cenarios/escada.png'
 export default class t3 extends React.Component{
     render(){
         
@@ -55,6 +55,9 @@ export default class t3 extends React.Component{
                 className="texto"
                 />
                 <p className="texto"></p>
+
+                <img src={sign} className="load_b4"></img>
+                <img src={escada} className="load_b4"></img>
 
             </div>
         );

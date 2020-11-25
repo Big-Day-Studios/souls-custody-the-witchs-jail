@@ -4,12 +4,13 @@ import Game_dp from "../../game_template/deposito/poppy/soul-1/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../../css/tutorial.css";
 import f0p0d00d1__4 from "./f0p0d00d1__4";
+import f0p0d003 from "../f0p0d003";
 import Typical from 'react-typical';
 import refresh from "../../img/icons/refresh.svg";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
 
 
-export default class f0p0d00d2_4 extends React.Component{
+export default class f0p0d00d1__5 extends React.Component{
  
     
 
@@ -26,6 +27,7 @@ export default class f0p0d00d2_4 extends React.Component{
                     <Route path="/game/" exact={false} component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/game/f0p0d00d1__4" component={f0p0d00d1__4} />
+                        <Route path="/game/f0p0d003" component={f0p0d003} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')
@@ -41,7 +43,7 @@ export default class f0p0d00d2_4 extends React.Component{
                     </div>
                 </Link>
                 <div className="bar_game"/>
-                <Link onClick={link} to="f0p0d00d1__6">
+                <Link onClick={link} to="f0p0d003">
                     <div id="n1" className="Next">
                         <p className="next">Próximo</p>
                     </div>

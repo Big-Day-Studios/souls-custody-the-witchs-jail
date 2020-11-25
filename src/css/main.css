@@ -93,3 +93,11 @@
 .soul-poppy-1-zoom{
     width: 742.4px;
 }
+
+.box-closed{
+    width: 500px;
+    top: 100px;
+    left: 160px;
+    position: absolute;
+    z-index: 1;
+}

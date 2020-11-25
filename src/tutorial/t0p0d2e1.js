@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Choices from "../game_template/porta/game_choice";
+import Choices from "../game_template/porta/poppy/p2/game_choice";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import t2_0 from './t0p0d2.0';
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-
+import poppy from '../img/personagens/poppy/original/normal/poppy.png'
 
 export default class t2e1 extends React.Component{
     render(){    
@@ -36,6 +36,9 @@ export default class t2e1 extends React.Component{
                         <p className="choice_1t">Com certeza</p>
                     </div>
                 </Link>
+                
+                <img src={poppy} className="load_b4"></img>
+
             </div>
         );
     }
