@@ -8,7 +8,7 @@ import Typical from 'react-typical';
 import refresh from "../../img/icons/refresh.svg";
 import f0p0d00d2_0 from "./f0p0d00d2_0";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
-
+import background from "../../img/cenarios/cima.png"
 
 
 export default class f0p0d00d2_1 extends React.Component{
@@ -57,6 +57,9 @@ export default class f0p0d00d2_1 extends React.Component{
                 wrapper="p"
                 className="texto"
                 />
+
+                <img class="load_b4" src={background} />
+
             </div>
         );
     }

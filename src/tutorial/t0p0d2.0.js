@@ -8,7 +8,7 @@ import t1i0 from './t0p0d2i0';
 import Typical from 'react-typical';
 import refresh from "../img/icons/refresh.svg";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-import poppy from '../img/personagens/poppy/original/normal/poppy.png'
+import poppy from '../img/personagens/poppy/sd/normal/poppy.png'
 
 
 

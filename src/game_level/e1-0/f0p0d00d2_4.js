@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_dp from "../../game_template/deposito/poppy/soul-1/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../../css/tutorial.css";
-import f0p0d00d2_1 from "../e1-0/f0p0d00d2_1";
+import f0p0d003 from "../f0p0d003";
 import Typical from 'react-typical';
 import refresh from "../../img/icons/refresh.svg";
 import f0p0d00d2_3 from "../e1-0/f0p0d00d2_3";
@@ -27,11 +27,15 @@ export default class f0p0d00d2_4 extends React.Component{
                     <Route path="/game/" exact={false} component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/game/f0p0d00d2_3" component={f0p0d00d2_3} />
+                        <Route path="/game/f0p0d003" component={f0p0d003} />
+
+                        f0p0d00d2_5
                     </Switch>
                 </Router>,
                 document.getElementById('root')
             );
         }
+
 
         return(
             <div className= "all_game">
@@ -42,7 +46,7 @@ export default class f0p0d00d2_4 extends React.Component{
                     </div>
                 </Link>
                 <div className="bar_game"/>
-                <Link onClick={link} to="f0p0d00d2_5">
+                <Link onClick={link} to="f0p0d003">
                     <div id="n1" className="Next">
                         <p className="next">Próximo</p>
                     </div>
@@ -54,6 +58,7 @@ export default class f0p0d00d2_4 extends React.Component{
                 loop={1}
                 wrapper="p"
                 className="texto"
+            
                 />
             </div>
         );

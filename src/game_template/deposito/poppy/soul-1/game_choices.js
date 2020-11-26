@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../../../css/main.css";
 import "../../../../css/game_choice.css";
-import soul from '../../../../img/personagens/poppy/original/soul/alma.png';
+import soul from '../../../../img/personagens/poppy/sd/soul/alma.png';
 
 
 export default class Choices_dp extends React.Component{

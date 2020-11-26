@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game_es from "../game_template/deposito/poppy/soul-1/game_box_talk";
+import Game_es from "../game_template/deposito/poppy/p1/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import Typical from 'react-typical';
@@ -52,7 +52,7 @@ export default class f0p0d004 extends React.Component{
                 <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Calma...',1000, 'Já sei!', 1000, 'Aquela coisa que esse treco me disse é a resposta para o código deste cadeado.', 10 ]}
+                steps={['Tem uma construção amaldiçoada bem debaixo dessa loja.',1000, 'As almas que entram aqui são aprisionadas e corrompidas.', 1000, 'Elas perdem suas memórias, e a única coisa que pensam é naquilo que pode lhes salvar, mesmo que não saibam disso.',10]}
                 loop={1}
                 wrapper="p"
                 className="texto"

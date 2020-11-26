@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../../../css/main.css";
 import "../../../../css/game_index.css";
-import poppy from "../../../../img/personagens/poppy/original/normal/poppy2.png";
+import poppy from "../../../../img/personagens/poppy/sd/normal/poppy2.png";
 
 
 export default class Choices_dor extends React.Component{

@@ -120,6 +120,33 @@
     color: var(--main-font-family-color);
 }
 
+.question_2{
+    position: absolute;
+    width: 334px;
+    height: 58px;
+    left: 264px;
+    top: 130px;
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 58px;
+    color: var(--main-font-family-color);
+}
+.question_2U{
+    position: absolute;
+    width: 334px;
+    height: 58px;
+    left: 264px;
+    top: 162px;
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 58px;
+    color: var(--main-font-family-color);
+}
+
 .question_1U{
     position: absolute;
     width: 261px;

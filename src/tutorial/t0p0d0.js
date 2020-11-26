@@ -8,7 +8,7 @@ import t1 from "./t0p0d1";
 import Typical from 'react-typical';
 import refresh from "../img/icons/refresh.svg";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-import poppy from '../img/personagens/poppy/original/normal/poppy1.png'
+import poppy from '../img/personagens/poppy/sd/normal/poppy1.png'
 
 
 export default class t0 extends React.Component{
