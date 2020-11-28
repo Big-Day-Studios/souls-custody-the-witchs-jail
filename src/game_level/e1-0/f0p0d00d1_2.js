@@ -38,11 +38,9 @@ export default class f0p0d00d1_2 extends React.Component{
         return(
             <div className= "all_game">
                 <Game_dp />
-                <Link onClick={link} to="f0p0d00d1_1">
-                    <div id="b1" className="Back_">
-                        <p className="back_">Voltar</p>
-                    </div>
-                </Link>
+                <div id="b1" className="Back_">
+                    <p className="disabled">Voltar</p>
+                </div>
                 <div className="bar_game"/>
                 <Link onClick={link} to="f0p0d00d2_0">
                     <div id="n1" className="Next">

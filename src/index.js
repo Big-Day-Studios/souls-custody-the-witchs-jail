@@ -34,6 +34,17 @@ import f0p0d00d7__1 from './game_level/e2-1/f0p0d00d7__1';
 import f0p0d00d7__2 from './game_level/e2-1/f0p0d00d7__2';
 import f0p0d008 from './game_level/f0p0d008';
 import f0p0d009 from './game_level/f0p0d009';
+import f0p0d010 from './game_level/f0p0d010';
+import f0p0d011 from './game_level/f0p0d011';
+import f0p0d012 from './game_level/f0p0d012';
+import f0p0d013 from './game_level/f0p0d013';
+import f0p0d014 from './game_level/f0p0d014';
+import f0p0d015 from './game_level/f0p0d015';
+import f0p0d016 from './game_level/f0p0d016';
+import f0p0d017 from './game_level/f0p0d017';
+import f0p0d018 from './game_level/f0p0d018';
+import f0p0d019 from './game_level/f0p0d019';
+import f0p0d020 from './game_level/f0p0d020';
 
 
 import Game_dor from './game_template/porta/game_talk';
@@ -105,6 +116,18 @@ ReactDOM.render(
             <Route path="/game/f0p0d00d7__2" component={f0p0d00d7__2} />
             <Route path="/game/f0p0d008" component={f0p0d008} />
             <Route path="/game/f0p0d009" component={f0p0d009} />
+            <Route path="/game/f0p0d010" component={f0p0d010} />
+            <Route path="/game/f0p0d011" component={f0p0d011} />
+            <Route path="/game/f0p0d012" component={f0p0d012} />
+            <Route path="/game/f0p0d013" component={f0p0d013} />
+            <Route path="/game/f0p0d014" component={f0p0d014} />
+            <Route path="/game/f0p0d015" component={f0p0d015} />
+            <Route path="/game/f0p0d016" component={f0p0d016} />
+            <Route path="/game/f0p0d017" component={f0p0d017} />
+            <Route path="/game/f0p0d018" component={f0p0d018} />
+            <Route path="/game/f0p0d019" component={f0p0d019} />
+            <Route path="/game/f0p0d020" component={f0p0d020} />
+
       </Switch>
   </ BrowserRouter>
   , document.getElementById('root')

@@ -10,7 +10,7 @@ import poppy1 from  '../img/personagens/poppy/sd/normal/poppy1.png'
 import refresh from '../img/icons/refresh.svg'
 
 
-export default class f0p0d006 extends React.Component{
+export default class f0p0d007 extends React.Component{
  
     
 
@@ -36,7 +36,7 @@ export default class f0p0d006 extends React.Component{
         return(
             <div className= "all_game">
                 <Choices_es/>
-                <h1 className= "question_2">O que vai perguntar?</h1>
+                <h1 className= "question_2">O que vai falar?</h1>
                 <Link onClick={link} to="f0p0d00d7_0">
                     <div className="choice_0">
                         <p className="choice_0t">Quem é você?</p>

@@ -38,18 +38,16 @@ export default class f0p0d00d7__0 extends React.Component{
         return(
             <div className= "all_game">
                 <Game_es />
-                <Link onClick={link} to="f0p0d007">
-                    <div id="b1" className="Back_">
-                        <p className="back_">Voltar</p>
-                    </div>
-                </Link>
+                <div id="b1" className="Back_">
+                    <p className="disabled">Voltar</p>
+                </div>
                 <div className="bar_game"/>
                 <Link onClick={link} to="f0p0d00d7__1">
                     <div id="n1" className="Next">
                         <p className="next">Próximo</p>
                     </div>
                 </Link>
-                <h1 className="rebecca">Rebecca</h1>
+                <h1 className="poppy">Poppy</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
                 steps={['Eu sou aquele bicho que tava aqui com você.', 10]}
