@@ -21,7 +21,7 @@ export default class t2e1 extends React.Component{
                 <Router>
                     <Route path="/game/t/" exact={false} component={TheBackgroundScreams} />
                     <Switch>
-                        <Route path="/game/t0p0d2.0" component={t2_0}/>
+                        <Route path="/game/t/t0p0d2.0" component={t2_0}/>
                     </Switch>
                 </Router>,
                 document.getElementById('root')

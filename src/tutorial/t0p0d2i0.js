@@ -25,7 +25,7 @@ export default class t1i0 extends React.Component{
                     <Router>
                         <Route path="/game/t/" exact={false} component={TheBackgroundScreams} />
                         <Switch>
-                            <Route path="/game/t0p0d3" component={t3} />
+                            <Route path="/game/t/t0p0d3" component={t3} />
                         </Switch>
                         <Redirect to="t0p0d3"></Redirect>
                     </Router>,
