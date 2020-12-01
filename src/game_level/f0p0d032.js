@@ -10,7 +10,7 @@ import poppy1 from  '../img/personagens/poppy/normal/poppy1.png'
 import refresh from '../img/icons/refresh.svg'
 
 
-export default class f0p0d018 extends React.Component{
+export default class f0p0d032 extends React.Component{
  
     render(){
 
