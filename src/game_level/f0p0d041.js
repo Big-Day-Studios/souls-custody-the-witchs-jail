@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom
 import "../css/tutorial.css";
 import "../css/game_input.css";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-import poppy from '../img/personagens/poppy/normal/poppy.png'
+import poppy from '../img/personagens/louis/almasemvitrola.png'
 import f0p0d042 from './f0p0d042'
 import refresh from "../img/icons/refresh.svg";
 

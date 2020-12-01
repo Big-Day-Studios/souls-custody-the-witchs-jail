@@ -8,7 +8,7 @@ import $ from 'jquery';
 import './css/var.css';
 import './css/main.css';
 import './css/splash.css';
-import sign from './img/logos/sign.png'
+import sign from './img/logos/sign_standard.png';
 import Menu from './menu';
 
 

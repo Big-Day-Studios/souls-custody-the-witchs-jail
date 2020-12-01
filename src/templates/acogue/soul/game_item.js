@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../../css/main.css";
 import "../../../css/game_choice.css";
-import soul from "../../../img/personagens/louis/almavitrola.png";
+import soul from "../../../img/personagens/louis/almasemvitrola.png";
 import vitrola from "../../../img/itens/vitrola.png";
 
 

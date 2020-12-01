@@ -8,7 +8,9 @@ import refresh from "../img/icons/refresh.svg";
 import f0p0d038 from "./f0p0d038";
 import f0p0d040 from "./f0p0d040";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-import vitrola from  '../img/itens/vitrola.png'
+import vitrola from  '../img/itens/vitrola.png';
+import soul from  '../img/personagens/louis/almasemvitrola.png';
+
 
 
 export default class f0p0d039 extends React.Component{
@@ -60,6 +62,8 @@ export default class f0p0d039 extends React.Component{
                 className="texto"
                 />
                 <img src={vitrola} className="load_b4"/>
+                <img src={soul} className="load_b4"/>
+
             </div>
         );
     }

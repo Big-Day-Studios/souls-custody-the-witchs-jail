@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game_es from "../templates/acogue/soul/game_view";
+import Game_es from "../templates/acogue/soul/game_item";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
 import f0p0d041 from "./f0p0d041";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-import vitrola from  '../img/itens/vitrola.png'
+import vitrola from  '../img/itens/vitrola.png';
 
 
 export default class f0p0d040 extends React.Component{
