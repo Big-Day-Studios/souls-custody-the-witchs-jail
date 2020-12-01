@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game_es from "../templates/acogue/normal/game_view";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
 import Typical from 'react-typical';
-import refresh from "../img/icons/refresh.svg";
-import f0p0d043 from "./f0p0d043";
+import Menu from "../menu";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-import vitrola from  '../img/itens/vitrola.png'
-
+import sign from '../img/logos/sign_standard.png'
 
 export default class f0p0d039 extends React.Component{
  
@@ -26,7 +23,7 @@ export default class f0p0d039 extends React.Component{
                 <Router>
                     <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
                     <Switch>
-                        <Route path="/game/f/f0p0d043" component={f0p0d043} />
+                        <Route path="/menu" component={Menu} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')
@@ -35,12 +32,20 @@ export default class f0p0d039 extends React.Component{
 
         return(
             <div className= "all_game">
-            <Game_es/>
-            <Link onClick={link} to="f0p0d043">
+            <div className="background-black">
+                <Typical
+                steps={['Continua...']}
+                loop={1}
+                wrapper="p"
+                className="continua"
+                />
+            </div> 
+            <Link onClick={link} to="/menu">
                 <div className="item-next">
-                    <p className="item-next-text">Continuar</p>
+                    <p className="item-next-text">Menu</p>
                 </div>
             </Link>
+            <img className="load_b4" src={sign} />
             </div>
         );
     }

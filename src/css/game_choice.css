@@ -202,4 +202,6 @@
     line-height: 26px;
 
     color: var(--main-font-family-color);
+
+    z-index: 200;
 }

@@ -69,7 +69,7 @@ import f0p0d039 from './game_level/f0p0d039';
 import f0p0d040 from './game_level/f0p0d040';
 import f0p0d041 from './game_level/f0p0d041';
 import f0p0d042 from './game_level/f0p0d042';
-
+import f0p0d043 from './game_level/f0p0d043';
 
 import t0 from './tutorial/t0p0d0';
 import t1 from './tutorial/t0p0d1';
@@ -165,15 +165,7 @@ ReactDOM.render(
             <Route path="/game/f/f0p0d040" component={f0p0d040} />
             <Route path="/game/f/f0p0d041" component={f0p0d041} />
             <Route path="/game/f/f0p0d042" component={f0p0d042} />
-
-
-
-
-
-
-
-
-
+            <Route path="/game/f/f0p0d043" component={f0p0d043} />
 
       </Switch>
   </ BrowserRouter>
