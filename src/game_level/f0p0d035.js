@@ -5,9 +5,8 @@ import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
 import Typical from 'react-typical';
 import refresh from "../img/icons/refresh.svg";
-import f0p0d033 from "./f0p0d033";
-import f0p0d035 from "./f0p0d035";
-
+import f0p0d034 from "./f0p0d034";
+import f0p0d036 from "./f0p0d036";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
 
@@ -28,7 +27,8 @@ export default class f0p0d035 extends React.Component{
                 <Router>
                     <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
                     <Switch>
-                        <Route path="/game/f/f0p0d033" component={f0p0d033} />
+                        <Route path="/game/f/f0p0d034" component={f0p0d034} />
+                        <Route path="/game/f/f0p0d036" component={f0p0d036} />
 
                     </Switch>
                 </Router>,
@@ -50,7 +50,7 @@ export default class f0p0d035 extends React.Component{
                         <p className="next">Próximo</p>
                     </div>
                 </Link>
-                  <h1 className="poppy">??????</h1>
+                  <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
                 steps={['Que papo estranho, mas até que me faz lembrar de um negócio.', 1000, ' O que aquele papel dizia mesmo?', 1000]}

@@ -60,6 +60,16 @@ import f0p0d032 from './game_level/f0p0d032';
 import f0p0d033 from './game_level/f0p0d033';
 import f0p0d032_1 from './game_level/e3-0/f0p0d032_1';
 import f0p0d032__1 from './game_level/e3-1/f0p0d032__1';
+import f0p0d034 from './game_level/f0p0d034';
+import f0p0d035 from './game_level/f0p0d035';
+import f0p0d036 from './game_level/f0p0d036';
+import f0p0d037 from './game_level/f0p0d037';
+import f0p0d038 from './game_level/f0p0d038';
+import f0p0d039 from './game_level/f0p0d039';
+import f0p0d040 from './game_level/f0p0d040';
+import f0p0d041 from './game_level/f0p0d041';
+import f0p0d042 from './game_level/f0p0d042';
+
 
 import t0 from './tutorial/t0p0d0';
 import t1 from './tutorial/t0p0d1';
@@ -146,6 +156,20 @@ ReactDOM.render(
             <Route path="/game/f/f0p0d032_1" component={f0p0d032_1} />
             <Route path="/game/f/f0p0d032__1" component={f0p0d032__1} />
             <Route path="/game/f/f0p0d033" component={f0p0d033} />
+            <Route path="/game/f/f0p0d034" component={f0p0d034} />
+            <Route path="/game/f/f0p0d035" component={f0p0d035} />
+            <Route path="/game/f/f0p0d036" component={f0p0d036} />
+            <Route path="/game/f/f0p0d037" component={f0p0d037} />
+            <Route path="/game/f/f0p0d038" component={f0p0d038} />
+            <Route path="/game/f/f0p0d039" component={f0p0d039} />
+            <Route path="/game/f/f0p0d040" component={f0p0d040} />
+            <Route path="/game/f/f0p0d041" component={f0p0d041} />
+            <Route path="/game/f/f0p0d042" component={f0p0d042} />
+
+
+
+
+
 
 
 

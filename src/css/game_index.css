@@ -41,6 +41,11 @@
     background-size: 845px 480px;
 }
 
+#all_game_run_bt-zoom{
+    background-image: url(../img/cenarios/butchery.png);
+    background-size: 1267.5px 720px;
+    background-position: 198px 0px;
+}
 
 .textArea{
     position: absolute;

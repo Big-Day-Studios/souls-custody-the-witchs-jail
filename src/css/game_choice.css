@@ -31,9 +31,17 @@
 }
 
 #all_game_choice_bt{
-    /*Fundo do game com o cenário da porta do choice e input*/
+    /*Fundo do game com o cenário do açoogue do choice e input*/
     background-image: url(../img/cenarios/butchery.png);
     background-size: 845px 480px;
+    mix-blend-mode: normal;
+    filter: blur(8px);
+}
+
+#all_game_choice_bt-zoom{
+    background-image: url(../img/cenarios/butchery.png);
+    background-size: 1267.5px 720px;
+    background-position: 198px 0px;
     mix-blend-mode: normal;
     filter: blur(8px);
 }

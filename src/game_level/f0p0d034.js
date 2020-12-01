@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game_es from "../templates/acogue/poppy/p2/game_talk";
+import Game_es from "../templates/acogue/soul/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
 import Typical from 'react-typical';
 import refresh from "../img/icons/refresh.svg";
 import f0p0d033 from "./f0p0d033";
+import f0p0d035 from "./f0p0d035";
+
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
 
@@ -27,6 +29,8 @@ export default class f0p0d034 extends React.Component{
                     <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/game/f/f0p0d033" component={f0p0d033} />
+                        <Route path="/game/f/f0p0d035" component={f0p0d035} />
+
 
                     </Switch>
                 </Router>,

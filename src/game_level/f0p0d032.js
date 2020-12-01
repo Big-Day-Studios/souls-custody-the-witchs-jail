@@ -41,7 +41,7 @@ export default class f0p0d032 extends React.Component{
                         <p className="choice_0t">Você conhece ele?</p>
                     </div>
                 </Link>
-                <Link onClick={link} to="f0p0d031__1">
+                <Link onClick={link} to="f0p0d032__1">
                     <div className="choice_1">
                         <p className="choice_1t">o que aconteceu com ele?</p>
                     </div>

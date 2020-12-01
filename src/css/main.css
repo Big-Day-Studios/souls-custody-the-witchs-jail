@@ -179,6 +179,26 @@
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
+
+.soul-3-zoom{
+    position: absolute;
+    top: 47px;
+    left: 191px;
+    width: 389px;
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
 .poppy-3{
     position: absolute;
     top: 13px; 
@@ -207,6 +227,42 @@
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 
 }
+
+
+.louis{
+    position: absolute;
+    top: 30px;
+    left: -14px;
+    width: 262px;
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+    
+
+.louis-zoom{
+    position: absolute;
+    top: 47px;
+    left: 191px;
+    width: 389px;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
 
 .poppy-1{
     position: absolute;
@@ -264,6 +320,22 @@
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 
 }
+.vitrola{
+
+    position: absolute;
+    width: 265px;
+    top: 76px;
+    left: 305px;
+    z-index: 1;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
 .pitagoras{
     width: 500px;
     left: 160px;
@@ -277,6 +349,8 @@
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
+
+
 .box-closed{
     width: 500px;
     top: 100px;
