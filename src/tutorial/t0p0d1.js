@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
-import Game from "../game_template/porta/poppy/p1/game_talk";
+import Game from "../templates/porta/poppy/p1/game_talk";
 import "../css/tutorial.css";
 import t0 from './t0p0d0';
 import t1e0 from "./t0p0d1e0";
@@ -22,7 +22,7 @@ export default class t1 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/" component={TheBackgroundScreams} />
+                    <Route path="/game/t" exact={false} component={TheBackgroundScreams} />
                     <Switch>
                     <Route path="/game/t0p0d0" component={t0} />
                         <Route path="/game/t0p0d1e0" component={t1e0} />

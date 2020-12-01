@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game from "../game_template/porta/poppy/p1/game_talk";
+import Game from "../templates/porta/poppy/p1/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import Menu from "../menu";
@@ -21,10 +21,10 @@ export default class t3 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/" component={TheBackgroundScreams} />
+                    <Route path="/game/t" exact={false} component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/menu" component={Menu} />
-                        <Route path="/game/f0p0d000" component={ena} />
+                        <Route path="/game/f/f0p0d000" component={ena} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')

@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game_up from "../../game_template/cima/game_talk";
+import Game_up from "../../templates/cima/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
-import "../../css/tutorial.css";
+import "../../css/game_index.css";
 import f0p0d00d2_1 from "./f0p0d00d2_1";
 import Typical from 'react-typical';
 import refresh from "../../img/icons/refresh.svg";
 import f0p0d00d2_3 from "./f0p0d00d2_3";
+import cenarios from "../../img/cenarios/deposito.png";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
 
 
@@ -24,10 +25,10 @@ export default class f0p0d00d2_2 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
                     <Switch>
-                        <Route path="/game/f0p0d00d2_1" component={f0p0d00d2_1} />
-                        <Route path="/game/f0p0d00d2_3" component={f0p0d00d2_3} />
+                        <Route path="/game/f/f0p0d00d2_1" component={f0p0d00d2_1} />
+                        <Route path="/game/f/f0p0d00d2_3" component={f0p0d00d2_3} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')
@@ -56,7 +57,8 @@ export default class f0p0d00d2_2 extends React.Component{
                 wrapper="p"
                 className="texto"
                 />
-            </div>
+                <img src={cenarios} className="load_b4"></img>
+                </div>
         );
     }
 }

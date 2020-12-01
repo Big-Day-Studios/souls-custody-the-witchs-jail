@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import Game_es from "../game_template/deposito/poppy/soul-1/game_box";
+import Game_es from "../templates/deposito/poppy/soul-1/game_box";
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 import "../css/tutorial.css";
 import "../css/game_input.css";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-import poppy from '../img/personagens/poppy/sd/normal/poppy1.png'
+import poppy from '../img/personagens/poppy/normal/poppy.png'
 import f0p0d006 from './f0p0d006'
 import refresh from "../img/icons/refresh.svg";
 
@@ -23,9 +23,9 @@ export default class f0p0d005 extends React.Component{
                 alert("Acertou");
                 ReactDOM.render(
                     <Router>
-                        <Route path="/game/" component={TheBackgroundScreams} />
+                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
                         <Switch>
-                            <Route path="/game/f0p0d006" component={f0p0d006} />
+                            <Route path="/game/f/f0p0d006" component={f0p0d006} />
                         </Switch>
                         <Redirect to="f0p0d006"></Redirect>
                     </Router>,

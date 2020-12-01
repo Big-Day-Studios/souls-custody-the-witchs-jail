@@ -29,6 +29,18 @@
     background-size: 845px 480px;
 }
 
+#all_game_run_c1{
+    /*Fundo do game com o cenário da cutscene*/
+    background-image: url(../img/cenarios/cutscene1.png);
+    background-size: 845px 480px;
+}
+
+#all_game_run_bt{
+    /*Fundo do game com o cenário do açogue*/
+    background-image: url(../img/cenarios/butchery.png);
+    background-size: 845px 480px;
+}
+
 
 .textArea{
     position: absolute;
@@ -283,4 +295,107 @@
     -moz-user-select: none; /* Old versions of Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+#fade{
+    
+    -webkit-animation: flickerAnimation 7s;
+    -moz-animation: flickerAnimation 7s ;
+    -o-animation: flickerAnimation 7s ;
+    animation: flickerAnimation 7s ;
+    animation-delay: 4.5s;
+
+}
+
+
+
+#fade1{
+    
+    -webkit-animation: flickerAnimation 7s;
+    -moz-animation: flickerAnimation 7s ;
+    -o-animation: flickerAnimation 7s ;
+    animation: flickerAnimation 7s ;
+    animation-delay: 14s;
+
+}
+
+.background-black{
+    position: absolute;
+    background-color: #000000;
+    width: 845px;
+    height: 480px;
+
+}
+
+
+@keyframes fade-out {
+    0%   { opacity:1; }
+    100% { opacity:0; }
+  }
+  @-o-keyframes fade-out{
+    0%   { opacity:1; }
+    100% { opacity:0; }
+  }
+  @-moz-keyframes fade-out{
+    0%   { opacity:1; }
+    100% { opacity:0; }
+  }
+  @-webkit-keyframes fade-out{
+    0%   { opacity:1; }
+    100% { opacity:0; }
+  }
+
+
+#fade-out{
+    
+    -webkit-animation: fade-out 3.5s linear;
+    -moz-animation: fade-out 3.5s ;
+    -o-animation: fade-out 3.5s ;
+    animation: fade-out 3.5s ;
+}
+
+
+@keyframes fade-in {
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes fade-in{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes fade-in{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes fade-in{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+
+#fade-in{
+
+    -webkit-animation: fade-in 3.5s linear;
+    -moz-animation: fade-in 3.5s linear;
+    -o-animation: fade-in 3.5s linear;
+    animation: fade-in 3.5s linear;
 }

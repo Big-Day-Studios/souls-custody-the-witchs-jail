@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game_dp from "../../game_template/deposito/poppy/soul-1/game_talk";
+import Game_dp from "../../templates/deposito/poppy/soul-1/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
-import "../../css/tutorial.css";
+import "../../css/game_index.css";
 import f0p0d00d1__1 from "./f0p0d00d1__1";
 import Typical from 'react-typical';
 import refresh from "../../img/icons/refresh.svg";
 import f0p0d00d1__3 from "./f0p0d00d1__3";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
-
+import cenarios from "../../img/cenarios/cima.png";
+import soul from "../../img/personagens/poppy/soul/alma.png";
 
 export default class f0p0d00d1__2 extends React.Component{
  
@@ -24,10 +25,10 @@ export default class f0p0d00d1__2 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
                     <Switch>
-                        <Route path="/game/f0p0d00d1__1" component={f0p0d00d1__1} />
-                        <Route path="/game/f0p0d00d1__3" component={f0p0d00d1__3} />
+                        <Route path="/game/f/f0p0d00d1__1" component={f0p0d00d1__1} />
+                        <Route path="/game/f/f0p0d00d1__3" component={f0p0d00d1__3} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')
@@ -56,6 +57,11 @@ export default class f0p0d00d1__2 extends React.Component{
                 wrapper="p"
                 className="texto"
                 />
+
+                <img src={cenarios} className="load_b4"></img>
+                <img src={soul} className="load_b4"></img>
+
+
             </div>
         );
     }

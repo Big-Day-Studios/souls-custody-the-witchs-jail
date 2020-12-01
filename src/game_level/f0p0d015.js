@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game_es from "../game_template/deposito/poppy/p0/game_talk";
+import Game_es from "../templates/deposito/poppy/p0/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
-import "../css/tutorial.css";
+import "../css/game_index.css";
 import Typical from 'react-typical';
 import refresh from "../img/icons/refresh.svg";
-import f0p0d014 from "./f0p0d014";
 import f0p0d016 from "./f0p0d016";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
@@ -25,10 +24,9 @@ export default class f0p0d015 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/"  component={TheBackgroundScreams} />
+                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
                     <Switch>
-                        <Route path="/game/f0p0d014" component={f0p0d014} />
-                        <Route path="/game/f0p0d016" component={f0p0d016} />
+                        <Route path="/game/f/f0p0d016" component={f0p0d016} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')

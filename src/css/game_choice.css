@@ -30,6 +30,14 @@
     filter: blur(8px);
 }
 
+#all_game_choice_bt{
+    /*Fundo do game com o cenário da porta do choice e input*/
+    background-image: url(../img/cenarios/butchery.png);
+    background-size: 845px 480px;
+    mix-blend-mode: normal;
+    filter: blur(8px);
+}
+
 .choice_0{
     position: absolute;
     width: 452px;
@@ -132,6 +140,7 @@
     font-size: 36px;
     line-height: 58px;
     color: var(--main-font-family-color);
+    text-align: center;
 }
 .question_2U{
     position: absolute;

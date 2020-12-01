@@ -26,10 +26,12 @@ export default class Menu extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/" component={TheBackgroundScreams} />
+                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/t" exact={false} component={TheBackgroundScreams} />
+
                     <Switch>
-                        <Route path="/game/f0p0d000"  component={f0p0d000} />
-                        <Route path="/game/t0p0d0" component={t0}/>
+                        <Route path="/game/f/f0p0d000"  component={f0p0d000} />
+                        <Route path="/game/t/t0p0d0" component={t0}/>
                         <Route path="/about" component={About} />
                     </Switch>
                 </Router>,
@@ -42,10 +44,10 @@ export default class Menu extends React.Component{
                     <div className='sign_container'>
                         <img src={sign} alt="Souls custody: The witch's jail" className="game_sign" />
                     </div>
-                    <Link onClick={link} to="/game/f0p0d000">
+                    <Link onClick={link} to="/game/f/f0p0d000">
                         <button className="play">Começar</button>
                     </Link>
-                    <Link onClick={link} to="/game/t0p0d0">
+                    <Link onClick={link} to="/game/t/t0p0d0">
                         <button className="info">Como Jogar</button>
                     </Link>
                     <Link onClick={link} to="/about">

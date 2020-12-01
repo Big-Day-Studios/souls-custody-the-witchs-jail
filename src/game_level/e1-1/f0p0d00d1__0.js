@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game_es from "../../game_template/escada/game_talk";
+import Game_es from "../../templates/escada/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
-import "../../css/tutorial.css";
-import f0p0d001 from "../f0p0d001";
+import "../../css/game_index.css";
 import Typical from 'react-typical';
 import refresh from "../../img/icons/refresh.svg";
 import f0p0d00d1__1 from "./f0p0d00d1__1";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
-import Game_up from "../../game_template/cima/game_talk";
+import Game_up from "../../img/cenarios/cima.png";
 
 
 
@@ -26,10 +25,9 @@ export default class f0p0d00d1__0 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
                     <Switch>
-                        <Route path="/game/f0p0d001" component={f0p0d001} />
-                        <Route path="/game/f0p0d00d1__1" component={f0p0d00d1__1} />
+                        <Route path="/game/f/f0p0d00d1__1" component={f0p0d00d1__1} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')
@@ -56,7 +54,7 @@ export default class f0p0d00d1__0 extends React.Component{
                 wrapper="p"
                 className="texto"
                 />
-                    <img src={Game_up} className="load_b4"></img>
+                <img src={Game_up} className="load_b4"></img>
             </div>
         );
     }

@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import Choices from "../game_template/porta/poppy/p0/game_choice";
+import Choices from "../templates/porta/poppy/p0/game_choice";
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 import "../css/tutorial.css";
 import "../css/game_input.css";
 import t3 from './t0p0d3';
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-import poppy from '../img/personagens/poppy/sd/normal/poppy1.png'
+import poppy from '../img/personagens/poppy/normal/poppy1.png'
 import refresh from "../img/icons/refresh.svg";
 
 export default class t1i0 extends React.Component{
@@ -23,7 +23,7 @@ export default class t1i0 extends React.Component{
                 alert("Acertou");
                 ReactDOM.render(
                     <Router>
-                        <Route path="/game/" component={TheBackgroundScreams} />
+                        <Route path="/game/t" exact={false} component={TheBackgroundScreams} />
                         <Switch>
                             <Route path="/game/t0p0d3" component={t3} />
                         </Switch>

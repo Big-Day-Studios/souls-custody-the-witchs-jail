@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Box from "../game_template/deposito/poppy/soul-1/game_box";
+import Box from "../templates/deposito/poppy/soul-1/game_box";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_choice.css";
 import f0p0d004 from "./f0p0d004";
@@ -18,9 +18,9 @@ export default class f0p0d003 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
                     <Switch>
-                        <Route path="/game/f0p0d004" component={f0p0d004} />
+                        <Route path="/game/f/f0p0d004" component={f0p0d004} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')

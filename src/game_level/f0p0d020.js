@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game_es from "../game_template/deposito/poppy/p1/game_talk";
+import Game_es from "../templates/deposito/poppy/p1/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
-import "../css/tutorial.css";
+import "../css/game_index.css";
 import Typical from 'react-typical';
 import refresh from "../img/icons/refresh.svg";
-import f0p0d016 from "./f0p0d016";
+import f0p0d021 from "./f0p0d021";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-
+import item from '../img/itens/pitagoras.png'
 
 
 export default class f0p0d020 extends React.Component{
@@ -24,9 +24,9 @@ export default class f0p0d020 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/"  component={TheBackgroundScreams} />
+                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
                     <Switch>
-                        <Route path="/game/f0p0d016" component={f0p0d016} />
+                        <Route path="/game/f/f0p0d021" component={f0p0d021} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')
@@ -40,7 +40,7 @@ export default class f0p0d020 extends React.Component{
                     <p className="disabled">Voltar</p>
                 </div>
                 <div className="bar_game"/>
-                <Link onClick={link} to="f0p0d016">
+                <Link onClick={link} to="f0p0d021">
                     <div id="n1" className="Next">
                         <p className="next">Próximo</p>
                     </div>
@@ -48,11 +48,13 @@ export default class f0p0d020 extends React.Component{
                 <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['(Melhor eu ir atrás dela.)', 1000, '(O que que é isso aqui?)', 1000, '(Talvez seja importante, é melhor eu levar comigo.)', 1000, '(Minha cabeça… está doendo de novo. Quanto mais eu subo, mais parece que eu vou cair.)', 1000, '(O que está acontecendo comigo?)']}
+                steps={['(Melhor eu ir atrás dela.)', 1000, '(Espera um pouco...)', 1000, '(O que é aquilo?)', 1000]}                
                 loop={1}
                 wrapper="p"
                 className="texto-italic"
                 />
+                <img src={item} className="load_b4"></img>
+                
             </div>
         );
     }

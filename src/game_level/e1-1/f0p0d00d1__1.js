@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game_up from "../../game_template/cima/game_talk";
+import Game_up from "../../templates/cima/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
-import "../../css/tutorial.css";
+import "../../css/game_index.css";
 import f0p0d00d1__0 from "./f0p0d00d1__0";
 import Typical from 'react-typical';
 import refresh from "../../img/icons/refresh.svg";
 import f0p0d00d1__2 from "./f0p0d00d1__2";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
-import Game_dp from "../../game_template/deposito/poppy/soul-1/game_talk";
-
-
+import cenarios from "../../img/cenarios/deposito.png";
+import escada from "../../img/cenarios/escada.png";
+import soul from "../../img/personagens/poppy/soul/alma.png";
 export default class f0p0d00d1__1 extends React.Component{
  
     
@@ -25,10 +25,10 @@ export default class f0p0d00d1__1 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
                     <Switch>
-                        <Route path="/game/f0p0d00d1__0" component={f0p0d00d1__0} />
-                        <Route path="/game/f0p0d00d1__2" component={f0p0d00d1__2} />
+                        <Route path="/game/f/f0p0d00d1__0" component={f0p0d00d1__0} />
+                        <Route path="/game/f/f0p0d00d1__2" component={f0p0d00d1__2} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')
@@ -57,7 +57,12 @@ export default class f0p0d00d1__1 extends React.Component{
                 wrapper="p"
                 className="texto"
                 />
-                    <img src={Game_dp} className="load_b4"></img>
+                <img src={cenarios} className="load_b4"></img>
+                <img src={soul} className="load_b4"></img>
+                <img src={escada} className="load_b4"></img>
+
+                
+
             </div>
         );
     }

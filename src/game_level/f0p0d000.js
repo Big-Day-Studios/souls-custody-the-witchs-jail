@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game_es from "../game_template/escada/game_talk";
+import Game_es from "../templates/escada/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
-import "../css/tutorial.css";
+import "../css/game_index.css";
 import Menu from "../menu";
 import Typical from 'react-typical';
 import refresh from "../img/icons/refresh.svg";
@@ -25,10 +25,10 @@ export default class f0p0d000 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/"  component={TheBackgroundScreams} />
+                    <Route path="/game/f/" exact={false} component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/menu" component={Menu} />
-                        <Route path="/game/f0p0d001" component={f0p0d001} />
+                        <Route path="/game/f/f0p0d001" component={f0p0d001} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')

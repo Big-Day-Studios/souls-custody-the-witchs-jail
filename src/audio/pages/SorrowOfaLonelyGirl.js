@@ -1,5 +1,5 @@
 import React from 'react';
-import SorrowOfaLonelyGirl from"../aac/SorrowOfaLonelyGirl.aac";
+import SorrowOfaLonelyGirl_ from"../aac/SorrowOfaLonelyGirl.aac";
 
 
 export default class SorrowOfaLonelyGirl extends React.Component{
@@ -7,7 +7,7 @@ export default class SorrowOfaLonelyGirl extends React.Component{
         return(
             <div id="player" className="player">
                 <audio autoPlay loop>
-                    <source src={SorrowOfaLonelyGirl} type="audio/aac" />
+                    <source src={SorrowOfaLonelyGirl_} type="audio/aac" />
                 </audio>
             </div>
         );

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Game from "../game_template/porta/poppy/p0/game_talk";
+import Game from "../templates/porta/poppy/p0/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import Menu from "../menu";
@@ -8,7 +8,7 @@ import t1 from "./t0p0d1";
 import Typical from 'react-typical';
 import refresh from "../img/icons/refresh.svg";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-import poppy from '../img/personagens/poppy/sd/normal/poppy1.png'
+import poppy from '../img/personagens/poppy/normal/poppy1.png'
 
 
 export default class t0 extends React.Component{
@@ -24,7 +24,7 @@ export default class t0 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/" component={TheBackgroundScreams} />
+                    <Route path="/game/t" exact={false} component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/menu" component={Menu} />
                         <Route path="/game/t0p0d1" component={t1} />
