@@ -41,7 +41,7 @@
 #all_game_choice_bt-zoom{
     background-image: url(../img/cenarios/butchery.png);
     background-size: 1267.5px 720px;
-    background-position: 198px 0px;
+    background-position: 0px 0px;
     mix-blend-mode: normal;
     filter: blur(8px);
 }

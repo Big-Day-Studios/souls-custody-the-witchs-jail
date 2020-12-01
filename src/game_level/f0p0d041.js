@@ -42,7 +42,7 @@ export default class f0p0d041 extends React.Component{
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <h1 className="input_tittle">Digite a resposta do enigma</h1>
                 <form name="form1" action="#" onSubmit={right}>
-                    <input type="text" id="answer" name="answer" className="answer" placeholder="***" />
+                    <input type="text" id="answer" name="answer" className="answer" placeholder="******" />
                     <input type="submit" className="send" value="Enviar"/>
                 </form>
                 <img src={poppy} className="load_b4"></img>

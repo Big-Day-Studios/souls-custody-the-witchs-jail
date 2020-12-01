@@ -1,6 +1,7 @@
 {
   "short_name": "Souls Custody",
   "name": "Souls Custody: The Witch's Jail",
+  "description": "WebGame",
   "icons": [
     {
       "src": "logo_background.ico",
@@ -8,8 +9,8 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#ffffff",
+  "theme_color": "#000000",
   "background_color": "#000000"
 }
