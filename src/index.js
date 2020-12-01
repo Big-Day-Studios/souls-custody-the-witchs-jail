@@ -85,7 +85,7 @@ import SorrowOfaLonelyGirl from './audio/pages/SorrowOfaLonelyGirl';
 
 ReactDOM.render(
   <BrowserRouter>
-              <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
+              <Route path="/game/f/" exact={false} component={TheBackgroundScreams} />
               <Route path="/game/c/" exact={false} component={SorrowOfaLonelyGirl} />
               <Route path="/game/t/" exact={false} component={TheBackgroundScreams} />
 

@@ -22,8 +22,8 @@ export default class f0p0d025 extends React.Component
 
                 ReactDOM.render(
                     <Router>
-                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
-                    <Route path="/game/c" exact={false} component={SorrowOfaLonelyGirl} />
+                    <Route path="/game/f/" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/c/" exact={false} component={SorrowOfaLonelyGirl} />
 
                         <Switch>
                             <Route path="/game/c/cf0p0d026" component={cf0p0d026} />

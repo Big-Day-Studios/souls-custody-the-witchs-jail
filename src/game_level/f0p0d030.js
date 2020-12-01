@@ -9,8 +9,9 @@ import f0p0d031 from "./f0p0d031";
 import f0p0d029 from "./f0p0d029";
 
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-import cenarios from "../img/cenarios/butchery.png"
-import soul from "../img/personagens/louis/almavitrola.png"
+import cenarios from "../img/cenarios/butchery.png";
+import soul from "../img/personagens/louis/almavitrola.png";
+import poppy from "../img/personagens/poppy/normal/poppy.png"
 
 
 export default class f0p0d030 extends React.Component{
@@ -27,7 +28,7 @@ export default class f0p0d030 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/f/" exact={false} component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/game/f/f0p0d029" component={f0p0d029} />
                         <Route path="/game/f/f0p0d031" component={f0p0d031} />
@@ -60,7 +61,7 @@ export default class f0p0d030 extends React.Component{
                 />
                 <img src={cenarios} className="load_b4"/>
                 <img src={soul} className="load_b4"/>
-
+                <img src={poppy} className="load_b4"/>
             </div>
         );
     }

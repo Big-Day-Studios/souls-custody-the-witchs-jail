@@ -21,7 +21,7 @@ export default class t3 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/t" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/t/" exact={false} component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/menu" component={Menu} />
                         <Route path="/game/f/f0p0d000" component={ena} />

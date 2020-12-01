@@ -6,6 +6,7 @@ import "../css/game_index.css";
 import Typical from 'react-typical';
 import refresh from "../img/icons/refresh.svg";
 import f0p0d027 from "./f0p0d027";
+import SorrowOfaLonelyGirl from '../audio/pages/SorrowOfaLonelyGirl';
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 import $ from 'jquery';
 
@@ -34,7 +35,8 @@ export default class f0p0d026 extends React.Component{
             setTimeout(function(){
                 ReactDOM.render(
                 <Router>
-                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/f/" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/c/" exact={false} component={SorrowOfaLonelyGirl} />
                     <Switch>
                         <Route path="/game/f/f0p0d027" component={f0p0d027} />
                     </Switch>

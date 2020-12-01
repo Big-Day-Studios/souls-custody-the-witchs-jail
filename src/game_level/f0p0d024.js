@@ -35,7 +35,8 @@ export default class f0p0d024 extends React.Component{
             setTimeout(function(){
                 ReactDOM.render(
                 <Router>
-                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/f/" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/c/" exact={false} component={SorrowOfaLonelyGirl} />
                     <Switch>
                         <Route path="/game/c/cf0p0d025" component={f0p0d025} />
                     </Switch>

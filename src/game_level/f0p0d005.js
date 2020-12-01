@@ -23,7 +23,7 @@ export default class f0p0d005 extends React.Component{
                 alert("Acertou");
                 ReactDOM.render(
                     <Router>
-                    <Route path="/game/f" exact={false} component={TheBackgroundScreams} />
+                    <Route path="/game/f/" exact={false} component={TheBackgroundScreams} />
                         <Switch>
                             <Route path="/game/f/f0p0d006" component={f0p0d006} />
                         </Switch>

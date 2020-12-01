@@ -23,7 +23,7 @@ export default class t1i0 extends React.Component{
                 alert("Acertou");
                 ReactDOM.render(
                     <Router>
-                        <Route path="/game/t" exact={false} component={TheBackgroundScreams} />
+                        <Route path="/game/t/" exact={false} component={TheBackgroundScreams} />
                         <Switch>
                             <Route path="/game/t0p0d3" component={t3} />
                         </Switch>
