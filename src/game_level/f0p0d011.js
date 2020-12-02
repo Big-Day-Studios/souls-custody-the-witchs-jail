@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_es from "../templates/deposito/poppy/p2/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
-import Typical from 'react-typical';
+import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";
 import f0p0d012 from "./f0p0d012";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
@@ -48,7 +48,7 @@ export default class f0p0d011 extends React.Component{
                 <h1 className="poppy">Poppy</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Você prestou atenção no que eu acabei de falar?',1000, 'Tá na cara que você não tá amaldiçoada.', 1000, 'As almas corrompidas andam pela loja sem rumo, são imundas, e não conseguem fazer nada por si só.', 1000, "Já você tá completamente limpa, consegue pensar, falar, não tem como estar amaldiçoada como eu tava.", 1000]}
+                steps={['Você prestou atenção no que eu acabei de falar?',2000, 'Tá na cara que você não tá amaldiçoada.', 2000, 'As almas corrompidas andam pela loja sem rumo, são imundas, e não conseguem fazer nada por si só.', 2000, "Já você tá completamente limpa, consegue pensar, falar, não tem como estar amaldiçoada como eu tava.", 2000]}
                 loop={1}
                 wrapper="p"
                 className="texto"

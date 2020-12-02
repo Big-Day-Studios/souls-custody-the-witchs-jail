@@ -4,7 +4,7 @@ import Game_up from "../../templates/cima/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../../css/game_index.css";
 import f0p0d00d2_1 from "./f0p0d00d2_1";
-import Typical from 'react-typical';
+import Typical from '../../typical';
 import refresh from "../../img/icons/refresh.svg";
 import f0p0d00d2_3 from "./f0p0d00d2_3";
 import cenarios from "../../img/cenarios/deposito.png";
@@ -52,7 +52,7 @@ export default class f0p0d00d2_2 extends React.Component{
                 <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Por que alguém escreveria algo assim aqui?', 1000, 'Que lugar estranho.', 1000, 'Bom...', 700, 'Vou voltar para aquela sala.']}
+                steps={['Por que alguém escreveria algo assim aqui?', 2000, 'Que lugar estranho.', 2000, 'Bom...', 700, 'Vou voltar para aquela sala.']}
                 loop={1}
                 wrapper="p"
                 className="texto"

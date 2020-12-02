@@ -42,7 +42,7 @@ export default class f0p0d014 extends React.Component{
                 </Link>
                 <Link onClick={link} to="f0p0d015">
                     <div className="choice_1">
-                        <p className="choice_1t">Já que agora você tá livre, por que não sai logo daqui?</p>
+                        <p className="choice_1t">Você tem ideia de como sair daqui?</p>
                     </div>
                 </Link>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>

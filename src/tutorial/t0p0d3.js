@@ -5,7 +5,7 @@ import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import Menu from "../menu";
 import ena from '../game_level/f0p0d000';
-import Typical from 'react-typical';
+import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 import sign from '../img/logos/sign_standard.png'

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_up from "../templates/cutscene/1_talk";
 import {Redirect, Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
-import Typical from 'react-typical';
+import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";
 import f0p0d027 from "./f0p0d027";
 import SorrowOfaLonelyGirl from '../audio/pages/SorrowOfaLonelyGirl';
@@ -63,7 +63,7 @@ export default class f0p0d026 extends React.Component{
                     <h1 className="rebecca">Rebecca</h1>
                     <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                     <Typical
-                    steps={['(Onde eu estou?)', 1000, '(Será que foi tudo um sonho?)', 1000, '(E quem são esses...?)']}
+                    steps={['(Onde eu estou?)', 2000, '(Será que foi tudo um sonho?)', 2000, '(E quem são esses...?)']}
                     loop={1}
                     wrapper="p"
                     className="texto-italic"

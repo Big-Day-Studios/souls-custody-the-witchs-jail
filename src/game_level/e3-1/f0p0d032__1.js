@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_es from "../../templates/acogue/poppy/p2/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../../css/game_index.css";
-import Typical from 'react-typical';
+import Typical from '../../typical';
 import refresh from "../../img/icons/refresh.svg";
 import f0p0d033 from "../f0p0d033";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
@@ -51,7 +51,7 @@ export default class f0p0d032__1 extends React.Component{
                 <h1 className="poppy">Poppy</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['A mesma coisa que aconteceu com todo mundo aqui.', 1000, 'Ele tá amaldiçoado e implorando por ajuda.']}
+                steps={['A mesma coisa que aconteceu com todo mundo aqui.', 2000, 'Ele tá amaldiçoado e implorando por ajuda.']}
                 loop={1}
                 wrapper="p"
                 className="texto"

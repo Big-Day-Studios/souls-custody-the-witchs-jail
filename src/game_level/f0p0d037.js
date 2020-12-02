@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_es from "../templates/acogue/poppy/p2/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
-import Typical from 'react-typical';
+import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";
 import f0p0d038 from "./f0p0d038";
 import f0p0d036 from "./f0p0d036";
@@ -55,7 +55,7 @@ export default class f0p0d037 extends React.Component{
                   <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['(Acho que entendi!)', 1000, '(Ele deve ter alguma coisa que nem a caixa da Poppy!)', 1000, '(Talvez...)', 1300, '(talvez seja essa vitrola que ele está segurando!)', 1000, '(Vou pegar ela!)']}
+                steps={['(Acho que entendi!)', 2000, '(Ele deve ter alguma coisa que nem a caixa da Poppy!)', 2000, '(Talvez...)', 2100, '(talvez seja essa vitrola que ele está segurando!)', 2000, '(Vou pegar ela!)']}
                 loop={1}
                 wrapper="p"
                 className="texto-italic"

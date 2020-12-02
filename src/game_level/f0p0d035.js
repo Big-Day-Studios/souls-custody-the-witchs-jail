@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_es from "../templates/acogue/poppy/p2/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
-import Typical from 'react-typical';
+import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";
 import f0p0d034 from "./f0p0d034";
 import f0p0d036 from "./f0p0d036";
@@ -53,7 +53,7 @@ export default class f0p0d035 extends React.Component{
                   <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Que papo estranho, mas até que me faz lembrar de um negócio.', 1000, ' O que aquele papel dizia mesmo?', 1000]}
+                steps={['Que papo estranho, mas até que me faz lembrar de um negócio.', 2000, ' O que aquele papel dizia mesmo?', 2000]}
                 loop={1}
                 wrapper="p"
                 className="texto"

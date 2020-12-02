@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_es from "../../templates/deposito/poppy/p1/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../../css/tutorial.css";
-import Typical from 'react-typical';
+import Typical from '../../typical';
 import refresh from "../../img/icons/refresh.svg";
 import f0p0d008 from "../f0p0d008";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';

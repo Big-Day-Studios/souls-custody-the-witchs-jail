@@ -49,7 +49,7 @@ export default class App extends React.Component{
         }, 6000); // O valor é representado em milissegundos.
         setTimeout(function () {
             $(splash_2).removeClass('splash_2_').addClass('splash_2');
-        }, 11000); // O valor é representado em milissegundos.
+        }, 23000); // O valor é representado em milissegundos.
         setTimeout(function () {
             $(game_name).removeClass().addClass('game_name_');
             $(document).keydown(function(e){
@@ -70,7 +70,7 @@ export default class App extends React.Component{
                 );
                     
         });
-        }, 13000); // O valor é representado em milissegundos.
+        }, 22000); // O valor é representado em milissegundos.
 
         }
     }

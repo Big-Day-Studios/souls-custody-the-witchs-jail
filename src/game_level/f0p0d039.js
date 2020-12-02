@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_es from "../templates/acogue/soul/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
-import Typical from 'react-typical';
+import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";
 import f0p0d038 from "./f0p0d038";
 import f0p0d040 from "./f0p0d040";
@@ -56,7 +56,7 @@ export default class f0p0d039 extends React.Component{
                   <h1 className="poppy">??????</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Aaaaah…', 1000, 'Huuumm…', 1000, 'Aaaaah…']}
+                steps={['Aaaaah…', 2000, 'Huuumm…', 2000, 'Aaaaah…']}
                 loop={1}
                 wrapper="p"
                 className="texto"

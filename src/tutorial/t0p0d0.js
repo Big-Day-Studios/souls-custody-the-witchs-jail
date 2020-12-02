@@ -5,7 +5,7 @@ import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
 import Menu from "../menu";
 import t1 from "./t0p0d1";
-import Typical from 'react-typical';
+import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 import poppy from '../img/personagens/poppy/normal/poppy1.png'
@@ -51,7 +51,7 @@ export default class t0 extends React.Component{
                 <h1 className="poppy">Poppy</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Olá, eu sou a Poppy, você vai me conhecer mais pra frente.',1000, 'Clique em próximo para continuar.', 10]}
+                steps={['Olá, eu sou a Poppy, você vai me conhecer mais pra frente.',2000, 'Clique em próximo para continuar.', 10]}
                 loop={1}
                 wrapper="p"
                 className="texto"

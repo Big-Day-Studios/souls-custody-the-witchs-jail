@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_es from "../templates/acogue/soul/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
-import Typical from 'react-typical';
+import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";
 import f0p0d033 from "./f0p0d033";
 import f0p0d035 from "./f0p0d035";
@@ -55,7 +55,7 @@ export default class f0p0d034 extends React.Component{
                   <h1 className="poppy">??????</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Hipotenusa de um triângulo retângulo, com catetos de 20cm e 15cm.', 1000]}
+                steps={['Hipotenusa de um triângulo retângulo, com catetos de 20cm e 15cm.', 2000]}
                 loop={1}
                 wrapper="p"
                 className="texto"

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_es from "../templates/deposito/poppy/p0/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
-import Typical from 'react-typical';
+import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";
 import f0p0d010 from "./f0p0d010";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
@@ -48,7 +48,7 @@ export default class f0p0d009 extends React.Component{
                 <h1 className="poppy">Poppy</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Tem uma construção amaldiçoada bem debaixo dessa loja.',1000, 'As almas que entram aqui são aprisionadas e corrompidas.', 1000, 'Elas perdem suas memórias, e a única coisa que pensam é naquilo que pode lhes salvar, mesmo que não saibam disso.',10]}
+                steps={['Tem uma construção amaldiçoada bem debaixo dessa loja.',2000, 'As almas que entram aqui são aprisionadas e corrompidas.', 2000, 'Elas perdem suas memórias, e a única coisa que pensam é naquilo que pode lhes salvar, mesmo que não saibam disso.',10]}
                 loop={1}
                 wrapper="p"
                 className="texto"

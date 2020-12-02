@@ -404,3 +404,27 @@
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
+.centralizeTiny{
+    width: 845px;
+    height: 385px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.big{
+    weight: bold;
+    color: #e03636;
+    z-index: 100;
+    font-size: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.tiny{
+    weight: bold;
+    color: #FCFCFC;
+    z-index: 100;
+}

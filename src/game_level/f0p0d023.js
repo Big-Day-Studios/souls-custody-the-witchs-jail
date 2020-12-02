@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_es from "../templates/escada/poppy/p0/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
-import Typical from 'react-typical';
+import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";
 import f0p0d022 from "./f0p0d022";
 import f0p0d024 from "./f0p0d024";
@@ -54,7 +54,7 @@ export default class f0p0d023 extends React.Component{
                     <h1 className="rebecca">Rebecca</h1>
                     <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                     <Typical
-                    steps={['(Minha cabeça… está doendo de novo.)', 1000, '(Não sei se vou conseguir subir a escada.)', 1000, '(O que está acontecendo comigo?)']}
+                    steps={['(Minha cabeça… está doendo de novo.)', 2000, '(Não sei se vou conseguir subir a escada.)', 2000, '(O que está acontecendo comigo?)']}
                     loop={1}
                     wrapper="p"
                     className="texto-italic"

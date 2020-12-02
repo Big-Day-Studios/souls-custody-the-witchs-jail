@@ -70,7 +70,7 @@ import f0p0d040 from './game_level/f0p0d040';
 import f0p0d041 from './game_level/f0p0d041';
 import f0p0d042 from './game_level/f0p0d042';
 import f0p0d043 from './game_level/f0p0d043';
-
+import e404 from './e404';
 import t0 from './tutorial/t0p0d0';
 import t1 from './tutorial/t0p0d1';
 import t1e0 from './tutorial/t0p0d1e0';
@@ -81,7 +81,7 @@ import t1i0 from './tutorial/t0p0d2i0';
 import t3 from './tutorial/t0p0d3';
 import TheBackgroundScreams from './audio/pages/TheBackgroundScreams';
 import SorrowOfaLonelyGirl from './audio/pages/SorrowOfaLonelyGirl';
-
+import test from './typical/test';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -90,6 +90,8 @@ ReactDOM.render(
               <Route path="/game/t/" exact={false} component={TheBackgroundScreams} />
 
       <Switch>
+
+
             <Route path="/" exact={true} component={Splash} />
             <Route path="/menu" component={Menu} />
             <Route path="/about" component={About} />
@@ -166,7 +168,11 @@ ReactDOM.render(
             <Route path="/game/f/f0p0d041" component={f0p0d041} />
             <Route path="/game/f/f0p0d042" component={f0p0d042} />
             <Route path="/game/f/f0p0d043" component={f0p0d043} />
+            <Route path="/typical" component={test} />
 
+
+
+            <Route component={e404} />
       </Switch>
   </ BrowserRouter>
   , document.getElementById('root')

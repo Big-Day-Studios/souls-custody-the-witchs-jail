@@ -4,7 +4,7 @@ import Game_dp from "../../templates/deposito/poppy/soul-1/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../../css/game_index.css";
 import f0p0d00d1__5 from "./f0p0d00d1__5";
-import Typical from 'react-typical';
+import Typical from '../../typical';
 import refresh from "../../img/icons/refresh.svg";
 import f0p0d00d1__3 from "./f0p0d00d1__3";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_es from "../templates/deposito/poppy/soul-1/game_box_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
-import Typical from 'react-typical';
+import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";
 import f0p0d005 from "./f0p0d005";
 import f0p0d003 from "./f0p0d003";
@@ -52,7 +52,7 @@ export default class f0p0d004 extends React.Component{
                 <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Calma...',1000, 'Já sei!', 1000, 'Aquela coisa que esse treco me disse é a resposta para o código deste cadeado.', 10 ]}
+                steps={['Calma...',2000, 'Já sei!', 2000, 'Aquela coisa que esse treco me disse é a resposta para o código deste cadeado.', 10 ]}
                 loop={1}
                 wrapper="p"
                 className="texto"

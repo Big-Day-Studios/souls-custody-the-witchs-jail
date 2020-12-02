@@ -4,7 +4,7 @@ import Game_dp from "../../templates/deposito/poppy/soul-1/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../../css/tutorial.css";
 import f0p0d00d1_1 from "./f0p0d00d1_1";
-import Typical from 'react-typical';
+import Typical from '../../typical';
 import refresh from "../../img/icons/refresh.svg";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
 
@@ -47,7 +47,7 @@ export default class f0p0d00d1_0 extends React.Component{
                 <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Caramba, que bicho nojento!',1000, 'O que ele está dizendo?', 10 ]}
+                steps={['Caramba, que bicho nojento!',2000, 'O que ele está dizendo?', 10 ]}
                 loop={1}
                 wrapper="p"
                 className="texto"
