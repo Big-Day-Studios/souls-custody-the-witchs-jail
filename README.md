@@ -1,3 +1,7 @@
+# [Play Now](https://souls-custody-the-witchs-jail.vercel.app/).
+<br/>
+<br/>
+
 # Souls Custody: The Witch's Jail
 A browser Visual Novel game made in React.js
 <br/>
@@ -15,7 +19,7 @@ Big Day Studios is a indie game developers group of hight school students.
 We're doing a technical course in programming and development of digital games.We have divided the work equally, and each one do some stuff to contribute with the project. <br/>
 The group members are:
 
-#### • Haru (Felipe) Marcoulakis de Borhtole — Producer, Programmer and Level Designer.
+#### • Haru Marcoulakis de Borhtole — Producer, Programmer and Level Designer.
 #### • Arthur Monteiro Gois dos Santos — Sound Engineer.
 #### • Isabela Dias Cerqueira — Artist and Designer.
 #### • Bianca Yasuda Leoni Jordão — Screenwriter.
@@ -79,4 +83,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# [souls-custody-the-witchs-jail](https://github.com/marcoulakis/souls-custody-the-witchs-jail).
+# [souls-custody-the-witchs-jail](https://souls-custody-the-witchs-jail.vercel.app/).
