@@ -52,7 +52,7 @@ export default class f0p0d004 extends React.Component{
                 <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Calma...',2000, 'Já sei!', 2000, 'Aquela coisa que esse treco me disse é a resposta para o código deste cadeado.', 10 ]}
+                steps={['Calma...',1300, 'Já sei!', 1300, 'Aquela coisa que esse treco me disse é a resposta para o código deste cadeado.', 10 ]}
                 loop={1}
                 wrapper="p"
                 className="texto"

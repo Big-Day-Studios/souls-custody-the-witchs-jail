@@ -48,7 +48,7 @@ export default class f0p0d009 extends React.Component{
                 <h1 className="poppy">Poppy</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Tem uma construção amaldiçoada bem debaixo dessa loja.',2000, 'As almas que entram aqui são aprisionadas e corrompidas.', 2000, 'Elas perdem suas memórias, e a única coisa que pensam é naquilo que pode lhes salvar, mesmo que não saibam disso.',10]}
+                steps={['Tem uma construção amaldiçoada bem debaixo dessa loja.',1300, 'As almas que entram aqui são aprisionadas e corrompidas.', 1300, 'Elas perdem suas memórias, e a única coisa que pensam é naquilo que pode lhes salvar, mesmo que não saibam disso.',10]}
                 loop={1}
                 wrapper="p"
                 className="texto"

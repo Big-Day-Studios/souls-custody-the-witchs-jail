@@ -57,7 +57,7 @@ export default class t2_0 extends React.Component{
                 </p>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Na tela vai aparecer um “Input” onde você tem que digitar o resultado do enigma ou a resposta a alguma pergunta,  você tem que digitar em minúsculo e sem caracteres especiais.',2500, 
+                steps={['Na tela vai aparecer um “Input” onde você tem que digitar o resultado do enigma ou a resposta a alguma pergunta,  você tem que digitar em minúsculo e sem caracteres especiais.',1600, 
                 'Clique em próximo para continuar.', 10]}
                 loop={1}
                 wrapper="p"

@@ -49,7 +49,7 @@ export default class t2_1 extends React.Component{
                 <h1 className="poppy">Poppy</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Seguinte, você tem que clicar no botão de Próximo para ver o próximo trecho da história.',2400, 
+                steps={['Seguinte, você tem que clicar no botão de Próximo para ver o próximo trecho da história.',1600, 
                 'Depois, quando houverem decisões a serem tomadas, você vai escolher uma das opções sobre a pergunta na tela seguinte. Isso faz você montar a história do jeito que você quiser.', 10]}
                 loop={1}
                 wrapper="p"

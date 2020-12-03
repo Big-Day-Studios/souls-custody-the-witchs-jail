@@ -48,7 +48,7 @@ export default class f0p0d013 extends React.Component{
                 <h1 className="poppy">Poppy</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Deve ter outro motivo, mas amaldiçoada você não tá.', 2000]}
+                steps={['Deve ter outro motivo, mas amaldiçoada você não tá.', 1300]}
                 loop={1}
                 wrapper="p"
                 className="texto"

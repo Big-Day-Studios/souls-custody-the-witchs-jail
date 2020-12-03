@@ -50,7 +50,7 @@ export default class t1 extends React.Component{
                 <h1 className="poppy">Poppy</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['Eu vou tentar te ensinar como se joga essa coisa.',2400, 
+                steps={['Eu vou tentar te ensinar como se joga essa coisa.',1600, 
                 'Você tem que escolher entre as opções que aparecem na tela para escolher seu rumo de história.', 10]}
                 loop={1}
                 wrapper="p"

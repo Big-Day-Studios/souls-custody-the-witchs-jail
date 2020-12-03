@@ -48,7 +48,7 @@ export default class f0p0d020 extends React.Component{
                 <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
                 <Typical
-                steps={['(Melhor eu ir atrás dela.)', 2000, '(Espera um pouco...)', 2000, '(O que é aquilo?)', 2000]}                
+                steps={['(Melhor eu ir atrás dela.)', 1300, '(Espera um pouco...)', 1300, '(O que é aquilo?)', 1300]}                
                 loop={1}
                 wrapper="p"
                 className="texto-italic"
