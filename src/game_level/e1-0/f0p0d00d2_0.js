@@ -5,6 +5,7 @@ import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../../css/game_choice.css";
 import f0p0d00d2_1 from "./f0p0d00d2_1";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
+import refresh from "../../img/icons/refresh.svg";
 
 
 
@@ -13,6 +14,11 @@ export default class f0p0d00d2_0 extends React.Component{
 
     render(){
     
+
+        function refreshPage(){
+            window.location.reload();
+        } 
+
         function link() {
             ReactDOM.render(
                 <Router>
@@ -34,6 +40,8 @@ export default class f0p0d00d2_0 extends React.Component{
                         <p className="choice_1t">Subir a escada</p>
                     </div>
                 </Link>
+
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
             </div>
         );
     }

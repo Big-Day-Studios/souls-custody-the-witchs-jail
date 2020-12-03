@@ -45,7 +45,7 @@ export default class t1i0 extends React.Component{
                     <input type="submit" className="send" value="Enviar"/>
                 </form>
                 <img src={poppy} className="load_b4"></img>
-                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
 
             </div>
         );

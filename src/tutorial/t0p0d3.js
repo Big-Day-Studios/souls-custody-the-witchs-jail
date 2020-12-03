@@ -48,7 +48,7 @@ export default class t3 extends React.Component{
                     </div>
                 </Link>
                 <h1 className="poppy">Poppy</h1>
-                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
                 <Typical
                 steps={['Certo!',750, 
                 'Então parece que você tá pronto para jogar!', 10]}

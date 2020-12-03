@@ -4,6 +4,7 @@ import Choices_dp from "../../templates/deposito/poppy/p2/game_choice";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../../css/game_choice.css";
 import f0p0d00d7_2 from "./f0p0d00d7_2";
+import refresh from "../../img/icons/refresh.svg";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
 
 
@@ -13,6 +14,10 @@ export default class f0p0d00d7_1 extends React.Component{
 
     render(){
     
+        function refreshPage(){
+            window.location.reload();
+        } 
+
         function link() {
             ReactDOM.render(
                 <Router>
@@ -34,6 +39,7 @@ export default class f0p0d00d7_1 extends React.Component{
                         <p className="choice_1t">O que que aconteceu com o bicho que tava aqui?</p>
                     </div>
                 </Link>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
             </div>
         );
     }

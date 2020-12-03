@@ -61,7 +61,7 @@ export default class f0p0d024 extends React.Component{
                         </div>
                     </Link>
                     <h1 className="rebecca">Rebecca</h1>
-                    <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                    <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
                     <Typical
                     steps={['(Não consigo ficar de pé. É melhor eu me sentar...)']}
                     loop={1}

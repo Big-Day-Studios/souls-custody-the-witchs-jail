@@ -5,6 +5,7 @@ import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../../css/game_choice.css";
 import f0p0d00d7__2 from "./f0p0d00d7__2";
 import TheBackgroundScreams from '../../audio/pages/TheBackgroundScreams';
+import refresh from "../../img/icons/refresh.svg";
 
 
 
@@ -13,6 +14,10 @@ export default class f0p0d00d7__1 extends React.Component{
 
     render(){
     
+        function refreshPage(){
+            window.location.reload();
+        } 
+
         function link() {
             ReactDOM.render(
                 <Router>
@@ -34,6 +39,8 @@ export default class f0p0d00d7__1 extends React.Component{
                         <p className="choice_1t">Quem é você?</p>
                     </div>
                 </Link>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
+
             </div>
         );
     }

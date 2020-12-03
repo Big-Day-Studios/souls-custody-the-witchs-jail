@@ -53,7 +53,7 @@ export default class f0p0d034 extends React.Component{
                     </div>
                 </Link>
                   <h1 className="poppy">??????</h1>
-                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
                 <Typical
                 steps={['Hipotenusa de um triângulo retângulo, com catetos de 20cm e 15cm.', 1300]}
                 loop={1}

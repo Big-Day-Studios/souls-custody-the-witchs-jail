@@ -44,7 +44,7 @@ export default class t1e0 extends React.Component{
                         <p className="choice_1t">Me explica melhor</p>
                     </div>
                 </Link>
-                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
 
                 <img src={poppy} className="load_b4"></img>
                 <img src={poppy2} className="load_b4"></img>

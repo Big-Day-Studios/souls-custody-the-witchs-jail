@@ -48,7 +48,7 @@ export default class t1 extends React.Component{
                     </div>
                 </Link>
                 <h1 className="poppy">Poppy</h1>
-                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
                 <Typical
                 steps={['Eu vou tentar te ensinar como se joga essa coisa.',1600, 
                 'Você tem que escolher entre as opções que aparecem na tela para escolher seu rumo de história.', 10]}

@@ -39,7 +39,7 @@ export default class f0p0d005 extends React.Component{
         return(
             <div className="all_game">
                 <Game_es/>
-                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
                 <h1 className="input_tittle">Digite o código do cadeado</h1>
                 <form name="form1" action="#" onSubmit={right}>
                     <input type="text" id="answer" name="answer" className="answer" placeholder="***" />

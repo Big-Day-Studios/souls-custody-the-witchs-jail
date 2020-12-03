@@ -46,7 +46,7 @@ export default class f0p0d011 extends React.Component{
                     </div>
                 </Link>
                 <h1 className="poppy">Poppy</h1>
-                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
                 <Typical
                 steps={['Você prestou atenção no que eu acabei de falar?',1300, 'Tá na cara que você não tá amaldiçoada.', 1300, 'As almas corrompidas andam pela loja sem rumo, são imundas, e não conseguem fazer nada por si só.', 1300, "Já você tá completamente limpa, consegue pensar, falar, não tem como estar amaldiçoada como eu tava.", 1300]}
                 loop={1}

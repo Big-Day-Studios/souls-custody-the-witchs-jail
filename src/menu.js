@@ -59,7 +59,7 @@ export default class Menu extends React.Component{
                     <img src={bds} className="load_b4"></img>
                     <img src={bar} className="load_b4"></img>
 
-                    <img src={refresh} className="load_b4"></img>
+                    <img src={refresh} alt="refresh"  className="load_b4"></img>
                     <img src={escada} className="load_b4"></img>
                     <img src={porta} className="load_b4"></img>
                     <EndThemeSOng/>

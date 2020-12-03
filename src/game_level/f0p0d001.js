@@ -46,7 +46,7 @@ export default class f0p0d001 extends React.Component{
                         <p className="choice_1t">Entrar pela porta</p>
                     </div>
                 </Link>
-                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
                 <img src={deposito} className="load_b4"></img>
                 <img src={soul} className="load_b4"></img>
 

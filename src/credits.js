@@ -50,7 +50,7 @@ export default class About extends React.Component{
                             Decidida a sair desse lugar e recuperar suas memórias, a jovem enfrenta enigmas desafiadores
                             para conquistar a liberdade das almas e chegar até a pessoa que pode tirar-la de lá.
                         </p>
-                        <img alt="this is a bar" src={bar} className="bar"/>
+                        <img src={bar} className="bar"/>
                         <h1 className="orientacao_h">Orientação</h1>
 
                         <p className="orientacao_p">Prof. Robson Vanderlei Alves de Andrade<br></br>

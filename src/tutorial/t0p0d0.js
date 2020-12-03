@@ -49,7 +49,7 @@ export default class t0 extends React.Component{
                     </div>
                 </Link>
                 <h1 className="poppy">Poppy</h1>
-                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
                 <Typical
                 steps={['Olá, eu sou a Poppy, você vai me conhecer mais pra frente.',1300, 'Clique em próximo para continuar.', 10]}
                 loop={1}

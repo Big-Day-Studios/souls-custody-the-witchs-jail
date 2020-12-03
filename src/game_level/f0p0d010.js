@@ -45,7 +45,7 @@ export default class f0p0d010 extends React.Component{
                         <p className="choice_1t">Eu tô amaldiçoada? Você consegue me libertar?</p>
                     </div>
                 </Link>
-                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
                 <img src={poppy2} className="load_b4"></img>
             </div>
         );

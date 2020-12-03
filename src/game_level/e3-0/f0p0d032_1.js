@@ -48,7 +48,7 @@ export default class f0p0d032_1 extends React.Component{
                     </div>
                 </Link>
                 <h1 className="poppy">Poppy</h1>
-                <img onClick={refreshPage} src={refresh} className="refresh_text"></img>
+                <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
                 <Typical
                 steps={['Provavelmente eu já tenha esbarrado nele, mas não me lembro bem.', 1300]}
                 loop={1}
