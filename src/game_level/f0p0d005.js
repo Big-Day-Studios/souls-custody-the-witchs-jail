@@ -60,11 +60,11 @@ export default class f0p0d005 extends React.Component{
             <div className="all_game">
                 <Game_es/>
                 <div id="nailed-it" className="none">                
-                    <img src={acertou} style={{"borderRadius": "30px"}}/>
+                    <img src={acertou} style={{"borderRadius": "30px", "height": "266px", "width": "400px"}}/>
                     <img src={continuar} onClick={link} className="continuar-button"/>
                 </div>
                 <div id="failed-it" className="none">                
-                    <img src={errou} style={{"borderRadius": "30px"}}/>
+                    <img src={errou} style={{"borderRadius": "30px", "height": "266px", "width": "400px"}}/>
                     <img src={denovo} onClick={Failed} className="denovo-button"/>
                 </div>
                 <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>

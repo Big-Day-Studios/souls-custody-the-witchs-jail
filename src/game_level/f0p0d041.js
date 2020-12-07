@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom
 import "../css/tutorial.css";
 import "../css/game_input.css";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
-import poppy from '../img/personagens/louis/almasemvitrola.png'
+import louis from '../img/personagens/louis/louis2.png'
 import f0p0d042 from './f0p0d042'
 import refresh from "../img/icons/refresh.svg";
 import acertou from '../img/icons/acertou.png';
@@ -60,11 +60,11 @@ export default class f0p0d005 extends React.Component{
             <div className="all_game">
                 <Game_es/>
                 <div id="nailed-it" className="none">                
-                    <img src={acertou} style={{"borderRadius": "30px"}}/>
+                    <img src={acertou} style={{"borderRadius": "30px", "height": "266px", "width": "400px"}}/>
                     <img src={continuar} onClick={link} className="continuar-button"/>
                 </div>
                 <div id="failed-it" className="none">                
-                    <img src={errou} style={{"borderRadius": "30px"}}/>
+                    <img src={errou} style={{"borderRadius": "30px", "height": "266px", "width": "400px"}}/>
                     <img src={denovo} onClick={Failed} className="denovo-button"/>
                 </div>
                 <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
@@ -73,7 +73,7 @@ export default class f0p0d005 extends React.Component{
                     <input type="text" id="answer" name="answer" className="answer" placeholder="**" />
                     <input type="submit" className="send" value="Enviar"/>
                 </form>
-                <img src={poppy} className="load_b4"></img>
+                <img src={louis} className="load_b4"></img>
 
             </div>
         );

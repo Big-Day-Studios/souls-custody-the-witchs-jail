@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, Route, BrowserRouter as Router} from "react-router-dom";
+import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import ReactDOM from "react-dom";
 import './css/main.css';
 import br from './img/icons/brazil.svg';
@@ -13,8 +13,10 @@ export default class lang extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
+                    <Switch>
                         <Route path="/s" exact={true} component={Splash} />
                         <Route path="/en/s" exact={true} component={en_Splash} />
+                    </Switch>
                 </Router>,
                 document.getElementById('root')
             );

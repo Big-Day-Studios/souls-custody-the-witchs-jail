@@ -21,12 +21,21 @@ export default class t3 extends React.Component{
         function link() {
             ReactDOM.render(
                 <Router>
-                    <Route path="/game/t/" exact={false} component={TheBackgroundScreams} />
                     <Route path="/game/f/" exact={false} component={TheBackgroundScreams} />
+                    <Switch>
+                        <Route path="/game/f/f0p0d000" component={ena} />
+                    </Switch>
+                </Router>,
+                document.getElementById('root')
+            );
+        }
 
+        function link1() {
+            ReactDOM.render(
+                <Router>
+                    <Route path="/menu" exact={false} component={TheBackgroundScreams} />
                     <Switch>
                         <Route path="/menu" component={Menu} />
-                        <Route path="/game/f/f0p0d000" component={ena} />
                     </Switch>
                 </Router>,
                 document.getElementById('root')
@@ -42,7 +51,7 @@ export default class t3 extends React.Component{
                     </div>
                 </Link>
                 <div className="bar_game___"/>
-                <Link onClick={link} to="/menu">
+                <Link onClick={link1} to="/menu">
                     <div id="n1" className="B_menu">
                         <p className="next">Voltar para o menu</p>
                     </div>

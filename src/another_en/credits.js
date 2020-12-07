@@ -39,7 +39,7 @@ export default class About extends React.Component{
                     <div className="information">
                         <h1 className="edu_h">Learning Objective</h1>
 
-                        <p className="edu_p">Stimulate the logical and mathematical reasoning of
+                        <p className="edu_p">Stimulate the logical and mathematical reasoning of the
                                 player with fun and challenging puzzles.
                         </p>
                         

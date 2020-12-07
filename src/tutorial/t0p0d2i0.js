@@ -60,11 +60,11 @@ export default class t1i0 extends React.Component{
             <div className="all_game">
                 <Choices />
                 <div id="nailed-it" className="none">                
-                    <img src={acertou} style={{"borderRadius": "30px"}}/>
+                    <img src={acertou} style={{"borderRadius": "30px", "height": "266px", "width": "400px"}}/>
                     <img src={continuar} onClick={link} className="continuar-button"/>
                 </div>
                 <div id="failed-it" className="none">                
-                    <img src={errou} style={{"borderRadius": "30px"}}/>
+                    <img src={errou} style={{"borderRadius": "30px", "height": "266px", "width": "400px"}}/>
                     <img src={denovo} onClick={Failed} className="denovo-button"/>
                 </div>
                 <h1 className="input_tittle">Digite “continuar” para<br/>prosseguir</h1>

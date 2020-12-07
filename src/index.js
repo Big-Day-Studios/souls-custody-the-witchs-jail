@@ -166,6 +166,9 @@ ReactDOM.render(
               <Route path="/game/c/" exact={false} component={SorrowOfaLonelyGirl} />
               <Route path="/game/t/" exact={false} component={TheBackgroundScreams} />
 
+              <Route path="/game/en/f/" exact={false} component={TheBackgroundScreams} />
+              <Route path="/game/en/c/" exact={false} component={SorrowOfaLonelyGirl} />
+              <Route path="/game/en/t/" exact={false} component={TheBackgroundScreams} />
       <Switch>
 
 
@@ -249,6 +252,8 @@ ReactDOM.render(
             <Route path="/game/f/f0p0d042" component={f0p0d042} />
             <Route path="/game/f/f0p0d043" component={f0p0d043} />
             <Route path="/typical" component={test} />
+
+
 
             <Route path="/en/menu" component={en_Menu} />
             <Route path="/en/about" component={en_About} />

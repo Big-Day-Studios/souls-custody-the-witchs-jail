@@ -53,7 +53,7 @@ export default class f0p0d019 extends React.Component{
                 wrapper="p"
                 className="texto"
                 />
-            </div>
+            </div> 
         );
     }
 }

@@ -49,7 +49,7 @@ export default class e404 extends React.Component{
             this.setState(prevState =>({
                 count: prevState.count - 1
             }))
-        },1300)
+        },1000)
 
     }
 }

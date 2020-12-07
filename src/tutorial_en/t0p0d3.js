@@ -22,7 +22,6 @@ export default class t3 extends React.Component{
             ReactDOM.render(
                 <Router>
                     <Route path="/game/en/f/" exact={false} component={TheBackgroundScreams} />
-
                     <Switch>
                         <Route path="/en/menu" component={Menu} />
                         <Route path="/game/en/f/f0p0d000" component={ena} />

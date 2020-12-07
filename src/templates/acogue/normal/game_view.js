@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../../css/main.css";
 import "../../../css/game_choice.css";
-import louis from "../../../img/personagens/louis/louis.png";
+import louis from "../../../img/personagens/louis/louis2.png";
 
 export default class Game_bt extends React.Component{
     render(){

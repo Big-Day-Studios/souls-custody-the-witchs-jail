@@ -52,7 +52,7 @@ export default class f0p0d000 extends React.Component{
                 <h1 className="rebecca">Rebecca</h1>
                 <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
                 <Typical
-                steps={['Wait...',1300, 'Where am I? I do not remember anything...', 1300, 'My head is paining and my clothes are destroyed, damn it.', 1400, "I can't stand here, I have to find out where I am, and why I'm here.", 10 ]}
+                steps={['Wait...',1300, 'Where am I? I do not remember anything...', 1300, 'My head is in pain and my clothes are destroyed, damn it.', 1400, "I can't stand here, I have to find out where I am, and why I'm here.", 10 ]}
                 loop={1}
                 wrapper="p"
                 className="texto"
