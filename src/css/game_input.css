@@ -45,3 +45,51 @@
 
     color: var(--main-font-family-color);
 }
+
+.nailed{
+    position: absolute;
+    width: 400px;
+    z-index: 500;
+    margin: 107px 222.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.none{
+    display: none;
+}
+
+.next-button{
+    position: absolute;
+    width: 80px;
+    top: 215px;
+    left: 310px;
+    cursor: pointer;
+}
+
+.continuar-button{
+    position: absolute;
+    width: 131px;
+    top: 219px;
+    left: 251px;
+    cursor: pointer;
+}
+
+.again-button{
+    position: absolute;
+    width: 80px;
+    top: 206px;
+    left: 309px;
+    cursor: pointer;
+
+}
+
+.denovo-button{
+    position: absolute;
+    width: 127px;
+    top: 187px;
+    left: 253px;
+    cursor: pointer;
+}

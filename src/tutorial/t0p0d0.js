@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game from "../templates/porta/poppy/p0/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/tutorial.css";
-import Menu from "../menu";
+import Menu from "../another/menu";
 import t1 from "./t0p0d1";
 import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";

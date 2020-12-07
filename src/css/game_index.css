@@ -81,6 +81,28 @@
     z-index: 200;
 }
 
+.Next_en{
+    position: absolute;
+    width: 29px;
+    height: 25px;
+    left: 810px;
+    top: 344px;
+
+    z-index: 200;
+
+}
+
+.Play_en{
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 774px;
+    top: 344px;
+
+    z-index: 200;
+
+}
+
 .next{
     font-family: var(--main-font-family);
     font-style: normal;
@@ -121,6 +143,24 @@
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
+.en_bar_game{
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    left: 803px;
+    top: 344px;
+    background-color: #9c9c9c;
+
+    z-index: 200;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
 .Back_{
     position: absolute;
     width: 37px;
@@ -131,6 +171,16 @@
     z-index: 200;
 }
 
+.Back_en{
+    position: absolute;
+    width: 37px;
+    height: 21px;
+    left: 770px;
+    top: 344px;
+
+    z-index: 200;
+
+}
 .refresh_text{
     position: absolute;
     left: 814px;

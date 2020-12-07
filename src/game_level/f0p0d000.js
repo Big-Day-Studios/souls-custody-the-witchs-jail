@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Game_es from "../templates/escada/game_talk";
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
-import Menu from "../menu";
+import Menu from "../another/menu";
 import Typical from '../typical';
 import refresh from "../img/icons/refresh.svg";
 import f0p0d001 from "./f0p0d001";

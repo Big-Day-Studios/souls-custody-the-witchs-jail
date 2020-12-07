@@ -428,3 +428,39 @@
     color: #FCFCFC;
     z-index: 100;
 }
+
+.br{
+    position: absolute;
+    width: 187px;
+    top: 161px;
+    left: 472px;
+    border-radius: 100%;
+}
+
+.br:hover{
+    box-shadow: 0 0 20px 0 var(--main-white);
+}
+
+.en{
+    position: absolute;
+    width: 187px;
+    top: 161px;
+    left: 187px;
+    border-radius: 100%;
+}
+
+.en:hover{
+    box-shadow: 0 0 20px 0 var(--main-white);
+}
+
+.idioma{
+    position: absolute;
+    top: 38px;
+    width: 845px;
+
+    font-size: 47px;
+
+    text-align: center;
+    color: var(--main-white);
+
+}

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "../css/game_index.css";
 import Typical from '../typical';
-import Menu from "../menu";
+import Menu from "../another/menu";
 import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 import sign from '../img/logos/sign_standard.png'
 

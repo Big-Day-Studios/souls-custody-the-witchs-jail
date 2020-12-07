@@ -30,6 +30,14 @@
     filter: blur(8px);
 }
 
+#all_game_choice_up_en{
+    /*Fundo do game com o cenário do andar de cima do choice e input*/
+    background-image: url(../img/cenarios/cima.png);
+    background-size: 845px 480px;
+    mix-blend-mode: normal;
+    filter: blur(8px);
+}
+
 #all_game_choice_bt{
     /*Fundo do game com o cenário do açoogue do choice e input*/
     background-image: url(../img/cenarios/butchery.png);
@@ -136,6 +144,50 @@
     color: var(--main-font-family-color);
 }
 
+.en_question_1{
+    position: absolute;
+    width: 300px;
+    height: 58px;
+    left: 300px;
+    top: 130px;
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 58px;
+    color: var(--main-font-family-color);
+}
+
+
+.en_question_1U{
+    position: absolute;
+    width: 300px;
+    height: 58px;
+    left: 300px;
+    top: 162px;
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 58px;
+    color: var(--main-font-family-color);
+}
+
+
+.question_2_en{
+    position: absolute;
+    width: 300px;
+    height: 58px;
+    left: 272px;
+    top: 130px;
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 58px;
+    color: var(--main-font-family-color);
+    text-align: center;
+}
 .question_2{
     position: absolute;
     width: 300px;

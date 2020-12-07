@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Redirect, Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import "./css/main.css";
-import Splash from "./splash"
+import lang from "./lang"
 
 
 
@@ -24,9 +24,9 @@ export default class e404 extends React.Component{
                 ReactDOM.render(
                 <Router>
                     <Switch>
-                    <Route path="/" component={Splash} />
+                    <Route path="/" component={lang} />
                     </Switch>
-                    <Redirect to="/" component={Splash}/>
+                    <Redirect to="/" component={lang}/>
                 </Router>,
                 document.getElementById('root')
             ) }, 5000)

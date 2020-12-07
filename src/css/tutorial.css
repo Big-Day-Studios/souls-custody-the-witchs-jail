@@ -15,6 +15,38 @@
 
 }
 
+.en_question_0 {
+    position: absolute;
+    width: 471px;
+    height: 58px;
+    left: 215px;
+    top: 130px;
+
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 58px;
+
+    color: var(--main-font-family-color);
+}
+
+.en_question_1-1 {
+    position: absolute;
+    width: 399px;
+    height: 58px;
+    left: 229px;
+    top: 130px;
+
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 58px;
+    
+    color: var(--main-font-family-color);
+}
+
 .input_tittle{
     position: absolute;
     width: 414px;

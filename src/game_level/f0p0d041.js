@@ -8,40 +8,68 @@ import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 import poppy from '../img/personagens/louis/almasemvitrola.png'
 import f0p0d042 from './f0p0d042'
 import refresh from "../img/icons/refresh.svg";
+import acertou from '../img/icons/acertou.png';
+import errou from '../img/icons/errou.png';
+import denovo from '../img/icons/tentenovamente.png';
+import continuar from '../img/icons/continuar.png';
+import $ from 'jquery';
 
-export default class f0p0d041 extends React.Component{
+
+export default class f0p0d005 extends React.Component{
     render(){    
 
         function refreshPage(){
             window.location.reload();
         } 
 
+        function link(){
+            ReactDOM.render(
+                <Router>
+                    <Route path="/game/f/" exact={false} component={TheBackgroundScreams} />
+                    <Switch>
+                        <Route path="/game/f/f0p0d042" component={f0p0d042} />
+                    </Switch>
+                    <Redirect to="f0p0d042"></Redirect>
+                </Router>,
+                document.getElementById('root')
+            );
+        }
+
+        $(document).ready(function() {
+            $(document).on('submit', '#form1', function() {
+              // do your things
+              return false;
+             });
+        });
+
+        function Failed(){
+            $("#failed-it").removeClass("nailed").addClass("none")
+        }
         function right(){
             var answer = document.getElementById('answer').value;
             var right_answer = "25";
             if (answer === right_answer){
-                alert("Acertou");
-                ReactDOM.render(
-                    <Router>
-                    <Route path="/game/f/" exact={false} component={TheBackgroundScreams} />
-                        <Switch>
-                            <Route path="/game/f/f0p0d042" component={f0p0d042} />
-                        </Switch>
-                        <Redirect to="f0p0d042"></Redirect>
-                    </Router>,
-                    document.getElementById('root')
-                );
+
+                $("#nailed-it").removeClass("none").addClass("nailed")
             }else{
-                alert("errou");
+                $("#failed-it").removeClass("none").addClass("nailed")
             }
         }
 
         return(
             <div className="all_game">
                 <Game_es/>
+                <div id="nailed-it" className="none">                
+                    <img src={acertou} style={{"borderRadius": "30px"}}/>
+                    <img src={continuar} onClick={link} className="continuar-button"/>
+                </div>
+                <div id="failed-it" className="none">                
+                    <img src={errou} style={{"borderRadius": "30px"}}/>
+                    <img src={denovo} onClick={Failed} className="denovo-button"/>
+                </div>
                 <img onClick={refreshPage} src={refresh} alt="refresh"  className="refresh_text"></img>
                 <h1 className="input_tittle">Digite a resposta do enigma</h1>
-                <form name="form1" action="#" onSubmit={right}>
+                <form id="form1" name="form1" action="#" onSubmit={right}>
                     <input type="text" id="answer" name="answer" className="answer" placeholder="**" />
                     <input type="submit" className="send" value="Enviar"/>
                 </form>

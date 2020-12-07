@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter,Route, Switch, Redirect} from "react-router-dom";
-import splash from './img/splash.png';
-import bds from './img/logos/logo_bds.png';
-import logo from './img/logos/logo-min.png';
+import splash from '../img/splash.png';
+import bds from '../img/logos/logo_bds.png';
+import logo from '../img/logos/logo-min.png';
 import $ from 'jquery';
-import './css/var.css';
-import './css/main.css';
-import './css/splash.css';
-import sign from './img/logos/sign_standard.png';
+import '../css/var.css';
+import '../css/main.css';
+import '../css/splash.css';
+import sign from '../img/logos/sign_standard.png';
 import Menu from './menu';
 
 

@@ -1,23 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Link, Switch, Route, BrowserRouter as Router} from "react-router-dom";
-import './css/var.css';
-import './css/main.css';
-import './css/splash.css';
-import './css/menu.css'
-import t0 from './tutorial/t0p0d0';
+import '../css/var.css';
+import '../css/main.css';
+import '../css/splash.css';
+import '../css/menu.css'
+import t0 from '../tutorial/t0p0d0';
 import About from './credits';
-import f0p0d000 from './game_level/f0p0d000';
-import sign from './img/logos/sign_standard.png';
-import back from './img/icons/back.svg';
-import logo from './img/logos/logo-min.png';
-import bds from './img/logos/logo_bds.png';
-import bar from './img/icons/vertical_bar.svg';
-import refresh from "./img/icons/refresh.svg";
-import escada from "./img/cenarios/escada.png";
-import porta from "./img/cenarios/entrada_loja_background.png";
-import EndThemeSOng from "./audio/pages/EndThemeSOng"
-import TheBackgroundScreams from './audio/pages/TheBackgroundScreams';
+import f0p0d000 from '../game_level/f0p0d000';
+import sign from '../img/logos/sign_standard.png';
+import back from '../img/icons/back.svg';
+import logo from '../img/logos/logo-min.png';
+import bds from '../img/logos/logo_bds.png';
+import bar from '../img/icons/vertical_bar.svg';
+import refresh from "../img/icons/refresh.svg";
+import escada from "../img/cenarios/escada.png";
+import porta from "../img/cenarios/entrada_loja_background.png";
+import EndThemeSOng from "../audio/pages/EndThemeSOng"
+import TheBackgroundScreams from '../audio/pages/TheBackgroundScreams';
 
 
 export default class Menu extends React.Component{
