@@ -29,7 +29,17 @@ The group members are:
 
 ## How to run it
 
-In the project directory, you can run:
+First of all, you have to you must have [node js and npm command](https://nodejs.org/en/download/) installed.
+
+If you already have it installed, install yarn command using:
+
+### `npm install yarn`
+
+And then, in the project directory, must run first:
+
+### `yarn`
+
+So now you can run the following commands:
 
 ### `yarn start`
 
