@@ -21,7 +21,7 @@ The group members are:
 
 #### • Haru Marcoulakis de Borhtole — Producer, Programmer and Level Designer.
 #### • Arthur Monteiro Gois dos Santos — Sound Engineer.
-#### • Isabela Dias Cerqueira — Artist and Designer.
+#### • [Isabela Dias Cerqueira](https://github.com/isaxs16) — Artist and Designer.
 #### • Bianca Yasuda Leoni Jordão — Screenwriter.
 #### • Juan Pablo Mendes Caetano — Puzzles Manager.
 <br/>
