@@ -19,7 +19,7 @@ Big Day Studios is a indie game developers group of hight school students.
 We're doing a technical course in programming and development of digital games.We have divided the work equally, and each one do some stuff to contribute with the project. <br/>
 The group members are:
 
-#### • [Haru Marcoulakis de Borhtole](https://github.com/marcoulakis) — Producer, Programmer and Level Designer.
+#### • [Marcoulakis](https://github.com/marcoulakis) — Producer, Programmer and Level Designer.
 #### • Arthur Monteiro Gois dos Santos — Sound Engineer.
 #### • [Isabela Dias Cerqueira](https://github.com/isaxs16) — Artist and Designer.
 #### • Bianca Yasuda Leoni Jordão — Screenwriter.
